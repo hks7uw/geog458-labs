@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- this tells the browser to use html5 -->
+<html lang="en">
+<head>
+    <!-- use utf-8 text and fit the page to the screen size -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>University District Map</title>
+    <!-- load the mapbox style and code -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js"></script>
+    <style>
+        /* remove the space around the page */
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        /* make the map fill the browser window */
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        /* put a title box above the map */
+        #title { position: absolute; top: 10px; left: 10px; background: white; padding: 12px; max-width: 230px; }
+        h1 { font-size: 18px; margin: 0 0 6px; }
+        p { font-size: 14px; margin: 0; }
+    </style>
+</head>
+<body>
+    <!-- draw the map inside this div -->
+    <div id="map"></div>
+    <!-- this box explains the map theme -->
+    <div id="title">
+        <h1>University District, Seattle</h1>
+        <p>A dusk view of UW and surrounding streets.</p>
+    </div>
+    <script>
+        // use the public token to load the map
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaGtzNyIsImEiOiJjbXY1c3E5MGUwOXB6Mnpwd2U5ZTRzb2IyIn0.Q1bfkkPvxjEUYW1EtKObRg';
+
+        // create the interactive map
+        const mymap = new mapboxgl.Map({
+            container: 'map', // connect the map to the html div
+            // style: 'mapbox://styles/mapbox/light-v11', // use mapbox standard instead
+            // projection: 'globe', // use the default projection instead
+            center: [-122.307, 47.657], // center the map on uw
+            zoom: 14 // show the campus and nearby streets
+        });
+
+        // add the fullscreen button
+        mymap.addControl(new mapboxgl.FullscreenControl());
+        // add zoom buttons and a compass
+        mymap.addControl(new mapboxgl.NavigationControl());
+
+        // wait for the style to load
+        mymap.on('style.load', () => {
+            // use dusk lighting for an evening theme
+            mymap.setConfigProperty('basemap', 'lightPreset', 'dusk');
+            // hide business and attraction labels to reduce clutter
+            mymap.setConfigProperty('basemap', 'showPointOfInterestLabels', false);
+
+            // extra change 1 hides transit icons and labels
+            // this keeps the campus streets easier to see
+            mymap.setConfigProperty('basemap', 'showTransitLabels', false);
+
+            // extra change 2 hides city and neighborhood names
+            // this keeps attention on the campus and its roads
+            mymap.setConfigProperty('basemap', 'showPlaceLabels', false);
+        });
+    </script>
+</body>
+</html>
