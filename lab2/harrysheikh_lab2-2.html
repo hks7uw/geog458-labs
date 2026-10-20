@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Megacities</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js"></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        #title { position: absolute; top: 10px; left: 10px; background: white; padding: 10px; max-width: 250px; }
+        h1 { font-size: 20px; margin: 0; }
+        #title p { font-size: 14px; }
+        #legend {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 180px;
+            background: white;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            padding: 10px 20px 10px 10px;
+            border-radius: 3px;
+            text-align: center;
+        }
+        .break { position: relative; margin: 0; padding: 0; }
+        .dot { display: inline-block; margin-top: 5px; border-radius: 50%; opacity: 1; }
+        .dot-label { position: absolute; top: 0; right: 0; font-style: italic; }
+        #legend a { color: black; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="title">
+        <h1>World Megacities</h1>
+        <p>Red cities have 10 million people or more. Click a city for its population.</p>
+    </div>
+    <div id="legend"></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaGtzNyIsImEiOiJjbXY1c3E5MGUwOXB6Mnpwd2U5ZTRzb2IyIn0.Q1bfkkPvxjEUYW1EtKObRg';
+
+        const mymap = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: [10, 20],
+            zoom: 1.5
+        });
+
+        mymap.on('load', () => {
+            mymap.addSource('population', {
+                type: 'geojson',
+                data: 'data/world-cities.geojson'
+            });
+
+            // use square root so circle area follows population
+            // red for megacities (10 million or more), blue for smaller cities
+            mymap.addLayer({
+                id: 'cities-layer',
+                type: 'circle',
+                source: 'population',
+                paint: {
+                    'circle-radius': [
+                        '*', 5,
+                        ['sqrt', ['/', ['get', 'population'], 1000000]]
+                    ],
+                    'circle-color': [
+                        'step', ['get', 'population'],
+                        '#3182bd',
+                        10000000, '#de2d26'
+                    ],
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': 'white'
+                }
+            });
+
+            mymap.on('click', 'cities-layer', (event) => {
+                const city = event.features[0];
+                const coordinates = city.geometry.coordinates.slice(0, 2);
+
+                new mapboxgl.Popup()
+                    .setLngLat(coordinates)
+                    .setHTML('<strong>' + city.properties.accentcity + '</strong><br>Population: ' +
+                        city.properties.population)
+                    .addTo(mymap);
+            });
+        });
+
+        // population legend
+        const legend = document.getElementById('legend');
+        const grades = [1000000, 5000000, 10000000];
+        const colors = ['#3182bd', '#3182bd', '#de2d26'];
+        const labels = ['<strong>Population (millions)</strong>'];
+
+        for (let i = 0; i < grades.length; i++) {
+            const value = grades[i] / 1000000;
+            const radius = 5 * Math.sqrt(grades[i] / 1000000);
+            const diameter = radius * 2;
+
+            labels.push(
+                '<p class="break"><i class="dot" style="background:' + colors[i] +
+                '; width:' + diameter + 'px; height:' + diameter +
+                'px;"></i> <span class="dot-label" style="top:' +
+                diameter / 2 + 'px;">' + value + '</span></p>'
+            );
+        }
+
+        const source = '<p style="font-size:10pt;">Blue: under 10 million<br>Red: 10 million or more</p>' +
+            '<p style="font-size:10pt;">Source: <a href="data/world-cities.geojson">Course city data</a></p>';
+
+        legend.innerHTML = labels.join('') + source;
+    </script>
+</body>
+</html>
