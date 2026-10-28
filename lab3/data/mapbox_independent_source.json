@@ -1,0 +1,42 @@
+{
+  "name": "lab3-elevation-parks-haris",
+  "owner": "hks7",
+  "style_id": "cmvr8m2qs001301subiya3bb2",
+  "style_url": "mapbox://styles/hks7/cmvr8m2qs001301subiya3bb2",
+  "editor": "https://console.mapbox.com/studio/styles/hks7/cmvr8m2qs001301subiya3bb2/edit/",
+  "base_style": "Classic Mapbox Outdoors v12",
+  "verified": "2026-10-27",
+  "verification": "Classic style with 148 layers and no imports; pale fill colors, hillshade opacity 0.12, and unchanged line widths",
+  "export": {
+    "tool": "QGIS XYZ raster connection and QMetaTiles 1.5 TileSet renderer and directory writer",
+    "bounds": [
+      -122.45,
+      47.49,
+      -122.22,
+      47.74
+    ],
+    "crs": "EPSG:3857",
+    "zooms": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tile_size": 256,
+    "format": "PNG",
+    "scheme": "xyz",
+    "background_transparency": 0,
+    "tile_count": 36,
+    "output": "../assets/mapbox-independent",
+    "rendered_layers": [
+      "published Studio basemap only"
+    ],
+    "method_note": "Each source tile was loaded through the QGIS raster provider before QMetaTiles rendered it so asynchronous downloads could finish",
+    "attribution": "© Mapbox © OpenStreetMap"
+  },
+  "unchanged_layers": [
+    "tunnel roads and casings",
+    "wetland-pattern"
+  ]
+}

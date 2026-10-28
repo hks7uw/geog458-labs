@@ -1,0 +1,68 @@
+{
+  "title": "Seattle elevation and park locations",
+  "study_area": [
+    -122.45,
+    47.49,
+    -122.22,
+    47.74
+  ],
+  "elevation": {
+    "file": "n47_w123_1arc_v2.tif",
+    "dataset": "SRTM 1 arc-second, version 2",
+    "source": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm",
+    "acquisition": "2000-02-11 to 2000-02-22",
+    "horizontal_crs": "WGS 84",
+    "vertical_datum": "EGM96",
+    "units": "m",
+    "nodata": -32767,
+    "note": "Identified from embedded SRTM metadata; original download URL unavailable",
+    "prepared_file": "elevation_seattle.tif",
+    "processing": "GDAL Translate cropped the original grid to the Seattle study area without resampling; the QGIS project displays it with a continuous five-stop color ramp",
+    "color_stops": {
+      "0": "#ffffcc",
+      "50": "#c2e699",
+      "100": "#78c679",
+      "150": "#31a354",
+      "200": "#006837"
+    },
+    "display_note": "Values below 0 use the lowest color; source values are unchanged"
+  },
+  "parks": {
+    "file": "related_features.geojson",
+    "source": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Park_Boundaries/FeatureServer/0",
+    "query": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Park_Boundaries/FeatureServer/0/query?where=1%3D1&outFields=NAME%2CPMA&outSR=4326&geometry=-122.45%2C47.49%2C-122.22%2C47.74&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=geojson",
+    "download_date": "2026-10-27",
+    "feature_count": 512,
+    "attribution": "City of Seattle, Seattle Parks and Recreation",
+    "note": "Points are park boundary centroids, not entrances or measured elevation locations; PMA is the property management area identifier",
+    "elevation_m": "Nearest source raster cell at each centroid, in meters; derived from SRTM rather than a field measurement at the park"
+  },
+  "export": {
+    "tool": "QMetaTiles 1.5 TileSet.run using the saved QGIS raster renderer",
+    "plugin_source": "https://plugins.qgis.org/plugins/QMetaTiles/version/1.5/",
+    "crs": "EPSG:3857",
+    "bounds": [
+      -122.45,
+      47.49,
+      -122.22,
+      47.74
+    ],
+    "zooms": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tile_size": 256,
+    "format": "PNG",
+    "scheme": "xyz",
+    "background_transparency": 100,
+    "rendered_layers": [
+      "elevation_seattle.tif"
+    ],
+    "tile_count": 36,
+    "output": "../assets/elevation",
+    "png_compression": "Lossless PNG compression using Qt quality 0"
+  }
+}

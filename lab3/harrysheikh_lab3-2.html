@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 3: Seattle Elevation and Parks</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
+  <style>
+    body { margin: 0; font: 14px/1.5 Arial, sans-serif; color: #182e3a; }
+    #map { position: absolute; inset: 0; }
+    #panel { position: absolute; top: 12px; left: 12px; padding: 16px;
+      width: 260px; max-width: calc(100% - 100px); background: white;
+      max-height: calc(100% - 80px); overflow: auto; border-radius: 6px; }
+    h1 { margin: 0 0 8px; font-size: 19px; }
+    p { margin: 8px 0; }
+    .ramp { height: 14px; background: linear-gradient(to right,
+      #ffffcc, #c2e699, #78c679, #31a354, #006837); }
+    .values { display: flex; justify-content: space-between; }
+    a { color: #184f75; }
+    .park-key { display: inline-block; width: 10px; height: 10px;
+      background: #18364d; border: 2px solid white; border-radius: 50%; }
+    .maplibregl-popup-content { white-space: pre-line; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <section id="panel">
+    <h1>Seattle Elevation and Parks</h1>
+    <p>Elevation: February 2000 | NASA / USGS SRTM</p>
+    <p>Parks: October 27, 2026 | City of Seattle</p>
+    <p>Compare park locations with the hills and lowlands around them.</p>
+    <p id="status">Loading map layers…</p>
+    <div id="surface-control" hidden>
+      <label><input id="show-surface" type="checkbox" checked> Show elevation</label>
+    </div>
+    <div id="park-control" hidden>
+      <label><input id="show-parks" type="checkbox" checked> Show parks</label>
+    </div>
+    <div id="legend" hidden>
+      <p><strong>Elevation (m above EGM96)</strong></p>
+      <div class="ramp"></div>
+      <div class="values"><span>≤0</span><span>100</span><span>200</span></div>
+      <p>Satellite-derived elevations, not a trail slope or accessibility rating.</p>
+    </div>
+    <p><span class="park-key"></span> Park boundary centroid</p>
+    <p>Map by Harry Sheikh</p>
+    <p><a href="harrysheikh_lab3-1.html">Puget Sound PM2.5 map</a></p>
+  </section>
+
+  <script type="module">
+    import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs';
+
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: {
+        version: 8,
+        sources: {},
+        layers: [{ id: 'background', type: 'background',
+          paint: { 'background-color': '#edf1f0' } }]
+      },
+      center: [-122.335, 47.615],
+      zoom: 11,
+      minZoom: 8,
+      maxZoom: 12,
+      maxBounds: [[-122.45, 47.49], [-122.22, 47.74]]
+    });
+    map.addControl(new maplibregl.NavigationControl());
+    map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }));
+
+    map.on('error', (event) => {
+      document.getElementById('status').textContent =
+        'Load error: check the file path and browser Console.';
+      console.error(event.error);
+    });
+
+    map.on('load', () => {
+      // add the local basemap tiles
+      map.addSource('basemap-tiles', {
+        type: 'raster',
+        tiles: ['assets/mapbox-independent/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        scheme: 'xyz',
+        minzoom: 8,
+        maxzoom: 12,
+        bounds: [-122.45, 47.49, -122.22, 47.74],
+        attribution: '© Mapbox © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      });
+      map.addLayer({
+        id: 'basemap',
+        type: 'raster',
+        source: 'basemap-tiles',
+        paint: { 'raster-opacity': 1, 'raster-fade-duration': 0 }
+      });
+
+      // add elevation above the basemap
+      map.addSource('elevation-tiles', {
+        type: 'raster',
+        tiles: ['assets/elevation/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        scheme: 'xyz',
+        minzoom: 8,
+        maxzoom: 12,
+        bounds: [-122.45, 47.49, -122.22, 47.74],
+        attribution: 'Elevation: NASA / USGS SRTM, February 2000; parks: City of Seattle, downloaded 2026-10-27; map by Harry Sheikh'
+      });
+      map.addLayer({
+        id: 'elevation-surface',
+        type: 'raster',
+        source: 'elevation-tiles',
+        paint: { 'raster-opacity': 0.7, 'raster-fade-duration': 0 }
+      });
+
+      document.getElementById('surface-control').hidden = false;
+      document.getElementById('legend').hidden = false;
+      document.getElementById('show-surface').addEventListener('change', (event) => {
+        map.setLayoutProperty('elevation-surface', 'visibility',
+          event.target.checked ? 'visible' : 'none');
+        document.getElementById('legend').hidden = !event.target.checked;
+      });
+      // add park locations above elevation
+      map.addSource('park-data', {
+        type: 'geojson',
+        data: 'data/related_features.geojson'
+      });
+      map.addLayer({
+        id: 'parks',
+        type: 'circle',
+        source: 'park-data',
+        paint: {
+          'circle-radius': 4,
+          'circle-color': '#18364d',
+          'circle-stroke-color': '#ffffff',
+          'circle-stroke-width': 2
+        }
+      });
+
+      map.on('click', 'parks', (event) => {
+        const feature = event.features[0];
+        const park = feature.properties;
+        new maplibregl.Popup()
+          .setLngLat(feature.geometry.coordinates)
+          .setText([
+            park.NAME,
+            'Approximate elevation: ' + park.elevation_m + ' m',
+            'Elevation source: SRTM, February 2000',
+            'Property management area ID: ' + park.PMA,
+            'Park location: City of Seattle, October 27, 2026',
+            'Point represents a park centroid, not an entrance'
+          ].join('\n'))
+          .addTo(map);
+      });
+      map.on('mouseenter', 'parks', () => {
+        map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'parks', () => {
+        map.getCanvas().style.cursor = '';
+      });
+      document.getElementById('park-control').hidden = false;
+      document.getElementById('show-parks').addEventListener('change', (event) => {
+        map.setLayoutProperty('parks', 'visibility',
+          event.target.checked ? 'visible' : 'none');
+      });
+      document.getElementById('status').textContent =
+        'Click a park for its name and approximate elevation.';
+    });
+  </script>
+</body>
+</html>

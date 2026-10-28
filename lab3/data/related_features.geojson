@@ -1,0 +1,7691 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285752178036,
+          47.6112887622204
+        ]
+      },
+      "properties": {
+        "NAME": "MADRONA RAVINE",
+        "PMA": 2856,
+        "elevation_m": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404006262763,
+          47.5631668362569
+        ]
+      },
+      "properties": {
+        "NAME": "ME-KWA-MOOKS PARK",
+        "PMA": 473,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260061111956,
+          47.5143112939465
+        ]
+      },
+      "properties": {
+        "NAME": "FRED HUTCHINSON PLAYGROUND",
+        "PMA": 439,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320938197248,
+          47.6099748425306
+        ]
+      },
+      "properties": {
+        "NAME": "BOYLSTON PLACE",
+        "PMA": 349,
+        "elevation_m": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290600652633,
+          47.6027234098409
+        ]
+      },
+      "properties": {
+        "NAME": "PEPPIS PLAYGROUND",
+        "PMA": 378,
+        "elevation_m": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326991552721,
+          47.7215593586062
+        ]
+      },
+      "properties": {
+        "NAME": "NORTHACRES PARK",
+        "PMA": 361,
+        "elevation_m": 139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286486115288,
+          47.5161745777886
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 443,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348457988516,
+          47.5437516742417
+        ]
+      },
+      "properties": {
+        "NAME": "WEST DUWAMISH GREENBELT",
+        "PMA": 4407,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299140160129,
+          47.617052915552
+        ]
+      },
+      "properties": {
+        "NAME": "PLUM TREE PARK",
+        "PMA": 387,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.363629975471,
+          47.6842253236167
+        ]
+      },
+      "properties": {
+        "NAME": "6TH AVENUE NW POCKET PARK",
+        "PMA": 3158,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332133423699,
+          47.6633802001571
+        ]
+      },
+      "properties": {
+        "NAME": "DEMONSTRATION GARDEN",
+        "PMA": 3883,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275391415337,
+          47.6718459120676
+        ]
+      },
+      "properties": {
+        "NAME": "UNIVERSITY CIRCLE",
+        "PMA": 424,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294617388443,
+          47.5826966066538
+        ]
+      },
+      "properties": {
+        "NAME": "COLLEGE STREET PARK",
+        "PMA": 3922,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330536448675,
+          47.6499825007745
+        ]
+      },
+      "properties": {
+        "NAME": "SUNNYSIDE AVE N BOAT RAMP",
+        "PMA": 3903,
+        "elevation_m": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290444118055,
+          47.5726917245518
+        ]
+      },
+      "properties": {
+        "NAME": "YORK PLAYGROUND",
+        "PMA": 3926,
+        "elevation_m": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276760376053,
+          47.6938151872962
+        ]
+      },
+      "properties": {
+        "NAME": "BURKE-GILMAN TRAIL",
+        "PMA": 476,
+        "elevation_m": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350960670125,
+          47.6139983657568
+        ]
+      },
+      "properties": {
+        "NAME": "BELLTOWN P-PATCH",
+        "PMA": 3908,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.397520977848,
+          47.677674972449
+        ]
+      },
+      "properties": {
+        "NAME": "WEBSTER PARK",
+        "PMA": 3894,
+        "elevation_m": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297256844351,
+          47.5849814829824
+        ]
+      },
+      "properties": {
+        "NAME": "AMY YEE TENNIS CENTER",
+        "PMA": 426,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.420680395886,
+          47.6426375049642
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA TIDELANDS PARK",
+        "PMA": 3041,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.345275700275,
+          47.6361911930413
+        ]
+      },
+      "properties": {
+        "NAME": "MACLEAN PARK",
+        "PMA": 4422,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316261120884,
+          47.6364624423549
+        ]
+      },
+      "properties": {
+        "NAME": "GRAND ARMY CEMETERY",
+        "PMA": 354,
+        "elevation_m": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264853233952,
+          47.5612385247404
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE WASHINGTON BOULEVARD",
+        "PMA": 413,
+        "elevation_m": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385485604759,
+          47.6705487075156
+        ]
+      },
+      "properties": {
+        "NAME": "BALLARD COMMONS PARK",
+        "PMA": 4278,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315977084232,
+          47.59874593143
+        ]
+      },
+      "properties": {
+        "NAME": "HOA MAI PARK",
+        "PMA": 4489,
+        "elevation_m": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329658986477,
+          47.6367176162582
+        ]
+      },
+      "properties": {
+        "NAME": "TERRY PETTUS PARK",
+        "PMA": 3889,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299954879502,
+          47.6977898196938
+        ]
+      },
+      "properties": {
+        "NAME": "THORNTON CREEK NATURAL AREA: 25TH/95TH",
+        "PMA": 416,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266863633882,
+          47.5102976537804
+        ]
+      },
+      "properties": {
+        "NAME": "KUBOTA GARDENS NATURAL AREA",
+        "PMA": 262,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393638800411,
+          47.588300634834
+        ]
+      },
+      "properties": {
+        "NAME": "DUWAMISH HEAD GREENBELT",
+        "PMA": 454,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325258314984,
+          47.6425999899697
+        ]
+      },
+      "properties": {
+        "NAME": "ROGERS PLAYGROUND",
+        "PMA": 380,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.305463594061,
+          47.5894045242428
+        ]
+      },
+      "properties": {
+        "NAME": "ATLANTIC STREET PARK",
+        "PMA": 4243,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300992642803,
+          47.617309204418
+        ]
+      },
+      "properties": {
+        "NAME": "HOMER HARRIS PARK",
+        "PMA": 4426,
+        "elevation_m": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278098749954,
+          47.5671121730021
+        ]
+      },
+      "properties": {
+        "NAME": "GENESEE PARK AND PLAYFIELD",
+        "PMA": 409,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366081750948,
+          47.6298679137483
+        ]
+      },
+      "properties": {
+        "NAME": "PARSONS GARDENS",
+        "PMA": 324,
+        "elevation_m": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337035203658,
+          47.6110164589379
+        ]
+      },
+      "properties": {
+        "NAME": "WESTLAKE PARK",
+        "PMA": 332,
+        "elevation_m": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321885352428,
+          47.6311247462176
+        ]
+      },
+      "properties": {
+        "NAME": "ST MARKS GREENBELT",
+        "PMA": 2848,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37347819178,
+          47.5398732861754
+        ]
+      },
+      "properties": {
+        "NAME": "WALT HUNDLEY PLAYFIELD",
+        "PMA": 3941,
+        "elevation_m": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384494570027,
+          47.6683307572745
+        ]
+      },
+      "properties": {
+        "NAME": "BERGEN PLACE",
+        "PMA": 253,
+        "elevation_m": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27079533217,
+          47.5245386164335
+        ]
+      },
+      "properties": {
+        "NAME": "RAINIER BEACH COMMUNITY CENTER",
+        "PMA": 434,
+        "elevation_m": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286448098421,
+          47.5386613990036
+        ]
+      },
+      "properties": {
+        "NAME": "JOHN C. LITTLE, SR. PARK",
+        "PMA": 429,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.367126180773,
+          47.5665312175671
+        ]
+      },
+      "properties": {
+        "NAME": "LONGFELLOW CREEK GREENSPACE",
+        "PMA": 264,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359578584111,
+          47.6284190986615
+        ]
+      },
+      "properties": {
+        "NAME": "KERRY PARK (FRANKLIN PLACE)",
+        "PMA": 342,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.358699130132,
+          47.6951346530078
+        ]
+      },
+      "properties": {
+        "NAME": "SANDEL PLAYGROUND",
+        "PMA": 250,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.377615649595,
+          47.5399819169363
+        ]
+      },
+      "properties": {
+        "NAME": "MYRTLE RESERVOIR PARK",
+        "PMA": 4463,
+        "elevation_m": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407119033182,
+          47.5628983000169
+        ]
+      },
+      "properties": {
+        "NAME": "EMMA SCHMITZ MEMORIAL OVERLOOK",
+        "PMA": 3920,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373160287651,
+          47.5562420127176
+        ]
+      },
+      "properties": {
+        "NAME": "CAMP LONG",
+        "PMA": 4154,
+        "elevation_m": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.270061059727,
+          47.558829649941
+        ]
+      },
+      "properties": {
+        "NAME": "LAKEWOOD PLAYGROUND",
+        "PMA": 414,
+        "elevation_m": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301958776892,
+          47.5876253579633
+        ]
+      },
+      "properties": {
+        "NAME": "COLMAN PLAYGROUND",
+        "PMA": 406,
+        "elevation_m": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284971526519,
+          47.573419919539
+        ]
+      },
+      "properties": {
+        "NAME": "HUNTER BOULEVARD",
+        "PMA": 4032,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315550719863,
+          47.7091538172194
+        ]
+      },
+      "properties": {
+        "NAME": "VICTORY CREEK PARK",
+        "PMA": 4443,
+        "elevation_m": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273459436828,
+          47.6966407810365
+        ]
+      },
+      "properties": {
+        "NAME": "MATTHEWS BEACH PARK",
+        "PMA": 347,
+        "elevation_m": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308221774628,
+          47.7141855077594
+        ]
+      },
+      "properties": {
+        "NAME": "PINEHURST POCKET PARK",
+        "PMA": 4444,
+        "elevation_m": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328009824467,
+          47.6312349720978
+        ]
+      },
+      "properties": {
+        "NAME": "FAIRVIEW WALKWAY",
+        "PMA": 4155,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295899273374,
+          47.6367233167595
+        ]
+      },
+      "properties": {
+        "NAME": "WASHINGTON PARK AND ARBORETUM",
+        "PMA": 393,
+        "elevation_m": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.387166194116,
+          47.5669113355627
+        ]
+      },
+      "properties": {
+        "NAME": "DAKOTA PLACE PARK",
+        "PMA": 575,
+        "elevation_m": 115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356469558643,
+          47.5588482528602
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET PARK",
+        "PMA": 462,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.306609797144,
+          47.6351085092636
+        ]
+      },
+      "properties": {
+        "NAME": "INTERLAKEN PARK",
+        "PMA": 3023,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338734618058,
+          47.6985420170024
+        ]
+      },
+      "properties": {
+        "NAME": "LICTON SPRINGS PARK",
+        "PMA": 286,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300268747007,
+          47.7025155150909
+        ]
+      },
+      "properties": {
+        "NAME": "LAVILLA MEADOWS NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4482,
+        "elevation_m": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.261486040314,
+          47.519091761456
+        ]
+      },
+      "properties": {
+        "NAME": "FLETCHER PLACE",
+        "PMA": 3948,
+        "elevation_m": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323647808842,
+          47.5207943890422
+        ]
+      },
+      "properties": {
+        "NAME": "SOUTH PARK MEADOW",
+        "PMA": 4048,
+        "elevation_m": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255408472887,
+          47.5028805924688
+        ]
+      },
+      "properties": {
+        "NAME": "TAYLOR CREEK HEADWATERS",
+        "PMA": 4475,
+        "elevation_m": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.360193012579,
+          47.5399539299276
+        ]
+      },
+      "properties": {
+        "NAME": "DELRIDGE AND MYRTLE",
+        "PMA": 4423,
+        "elevation_m": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319310799291,
+          47.664447403761
+        ]
+      },
+      "properties": {
+        "NAME": "UNIVERSITY PLAYGROUND",
+        "PMA": 435,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356059479815,
+          47.5653735430675
+        ]
+      },
+      "properties": {
+        "NAME": "WEST DUWAMISH GREENBELT",
+        "PMA": 282,
+        "elevation_m": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318962510536,
+          47.5868567777583
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 283,
+        "elevation_m": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31852932902,
+          47.6233652514317
+        ]
+      },
+      "properties": {
+        "NAME": "BROADWAY HILL PARK",
+        "PMA": 4474,
+        "elevation_m": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.378878464755,
+          47.6954165134321
+        ]
+      },
+      "properties": {
+        "NAME": "SOUNDVIEW PLAYFIELD",
+        "PMA": 251,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.374223498972,
+          47.6353605155896
+        ]
+      },
+      "properties": {
+        "NAME": "SW QUEEN ANNE GREENBELT",
+        "PMA": 234,
+        "elevation_m": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319071975169,
+          47.6592398600128
+        ]
+      },
+      "properties": {
+        "NAME": "CHRISTIE PARK",
+        "PMA": 595,
+        "elevation_m": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.346087350391,
+          47.6137043321579
+        ]
+      },
+      "properties": {
+        "NAME": "BELL STREET PARK BOULEVARD",
+        "PMA": 4472,
+        "elevation_m": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308793972304,
+          47.702583625836
+        ]
+      },
+      "properties": {
+        "NAME": "KINGFISHER NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4480,
+        "elevation_m": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320767321303,
+          47.6012730786502
+        ]
+      },
+      "properties": {
+        "NAME": "YESLER TERRACE PARK",
+        "PMA": 4263,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325315779385,
+          47.5266834631913
+        ]
+      },
+      "properties": {
+        "NAME": "PARQUE LIBERTAD",
+        "PMA": 4448,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287121253162,
+          47.6578367030558
+        ]
+      },
+      "properties": {
+        "NAME": "UNION BAY BOGLANDS #1",
+        "PMA": 4431,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376218424985,
+          47.6774500399465
+        ]
+      },
+      "properties": {
+        "NAME": "BALLARD SWIMMING POOL",
+        "PMA": 498,
+        "elevation_m": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359432549687,
+          47.6675658766706
+        ]
+      },
+      "properties": {
+        "NAME": "RAINIER PLACE",
+        "PMA": 3999,
+        "elevation_m": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33493183375,
+          47.7259419094876
+        ]
+      },
+      "properties": {
+        "NAME": "HELENE MADISON POOL",
+        "PMA": 285,
+        "elevation_m": 138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31845214248,
+          47.5926811862771
+        ]
+      },
+      "properties": {
+        "NAME": "DR. JOSE RIZAL PARK",
+        "PMA": 433,
+        "elevation_m": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.310397052542,
+          47.6465248393089
+        ]
+      },
+      "properties": {
+        "NAME": "WEST MONTLAKE PARK",
+        "PMA": 375,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34414740973,
+          47.6688306704259
+        ]
+      },
+      "properties": {
+        "NAME": "WOODLAND PARK",
+        "PMA": 292,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394845153907,
+          47.6956712700521
+        ]
+      },
+      "properties": {
+        "NAME": "NORTH BEACH RAVINE: 30TH NW NATURAL AREA",
+        "PMA": 271,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292464830557,
+          47.7198357016302
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE CITY PARK",
+        "PMA": 4476,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29656599387,
+          47.6077082658364
+        ]
+      },
+      "properties": {
+        "NAME": "GERBER PARK",
+        "PMA": 3759,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284259777924,
+          47.6152301473012
+        ]
+      },
+      "properties": {
+        "NAME": "MADRONA BRIAR PATCH",
+        "PMA": 4005,
+        "elevation_m": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.389159857857,
+          47.6336285899822
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA GREENBELT",
+        "PMA": 492,
+        "elevation_m": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348855472191,
+          47.5393279656065
+        ]
+      },
+      "properties": {
+        "NAME": "RIVERVIEW PLAYFIELD",
+        "PMA": 463,
+        "elevation_m": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.375583361271,
+          47.5609281095256
+        ]
+      },
+      "properties": {
+        "NAME": "ROTARY VIEWPOINT",
+        "PMA": 4465,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40323695461,
+          47.6602500992234
+        ]
+      },
+      "properties": {
+        "NAME": "KIWANIS RAVINE OVERLOOK",
+        "PMA": 4429,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322423329762,
+          47.7051935700148
+        ]
+      },
+      "properties": {
+        "NAME": "NORTHGATE PARK",
+        "PMA": 4445,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326215636714,
+          47.6210370582289
+        ]
+      },
+      "properties": {
+        "NAME": "THOMAS STREET MINI PARK",
+        "PMA": 386,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350612119606,
+          47.6930478069557
+        ]
+      },
+      "properties": {
+        "NAME": "GREENWOOD PARK",
+        "PMA": 4408,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359493752566,
+          47.6455109886764
+        ]
+      },
+      "properties": {
+        "NAME": "QUEEN ANNE BOWL PLAYFIELD",
+        "PMA": 3984,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289413350473,
+          47.5701793551845
+        ]
+      },
+      "properties": {
+        "NAME": "CHERYL CHOW PARK",
+        "PMA": 4483,
+        "elevation_m": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.382217358381,
+          47.5802364621973
+        ]
+      },
+      "properties": {
+        "NAME": "FAIRMOUNT PARK",
+        "PMA": 4410,
+        "elevation_m": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286777734941,
+          47.5814316643848
+        ]
+      },
+      "properties": {
+        "NAME": "MOUNT CLAIRE PARK",
+        "PMA": 4019,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283592878623,
+          47.6194428277631
+        ]
+      },
+      "properties": {
+        "NAME": "STEVENS TRIANGLE",
+        "PMA": 3981,
+        "elevation_m": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.415935893143,
+          47.650028212446
+        ]
+      },
+      "properties": {
+        "NAME": "CARLETON HIGHLANDS",
+        "PMA": 4049,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321582152333,
+          47.544989187307
+        ]
+      },
+      "properties": {
+        "NAME": "OXBOW PARK",
+        "PMA": 4416,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.382440451903,
+          47.5929100699963
+        ]
+      },
+      "properties": {
+        "NAME": "DON ARMENI PARK",
+        "PMA": 3917,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308133213771,
+          47.697132720959
+        ]
+      },
+      "properties": {
+        "NAME": "SACAJAWEA PLAYGROUND",
+        "PMA": 394,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38435681082,
+          47.504652220358
+        ]
+      },
+      "properties": {
+        "NAME": "ARROYO HEIGHTS",
+        "PMA": 485,
+        "elevation_m": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28719934409,
+          47.5737537057191
+        ]
+      },
+      "properties": {
+        "NAME": "HORTON HILL CORRIDOR",
+        "PMA": 3927,
+        "elevation_m": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.355465846451,
+          47.6296569987428
+        ]
+      },
+      "properties": {
+        "NAME": "HIGHLAND PLACE",
+        "PMA": 3979,
+        "elevation_m": 118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.396376447555,
+          47.6387595245251
+        ]
+      },
+      "properties": {
+        "NAME": "CONDON WAY CENTERSTRIP",
+        "PMA": 4030,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283205548875,
+          47.6551730133302
+        ]
+      },
+      "properties": {
+        "NAME": "BELVOIR PLACE",
+        "PMA": 475,
+        "elevation_m": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285088878462,
+          47.6218456959709
+        ]
+      },
+      "properties": {
+        "NAME": "LAKEVIEW PARK",
+        "PMA": 365,
+        "elevation_m": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322635695286,
+          47.6717290211171
+        ]
+      },
+      "properties": {
+        "NAME": "NE 60TH STREET PARK",
+        "PMA": 3975,
+        "elevation_m": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260054212561,
+          47.5423979895721
+        ]
+      },
+      "properties": {
+        "NAME": "MARTHA WASHINGTON PARK",
+        "PMA": 432,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301731818759,
+          47.6062136475997
+        ]
+      },
+      "properties": {
+        "NAME": "GARFIELD TEEN LIFE CENTER",
+        "PMA": 4625,
+        "elevation_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.296468567382,
+          47.6222731313656
+        ]
+      },
+      "properties": {
+        "NAME": "JULIA LEE'S PARK",
+        "PMA": 4627,
+        "elevation_m": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300517421134,
+          47.6876253634634
+        ]
+      },
+      "properties": {
+        "NAME": "PICARDO (RAINIE) P-PATCH",
+        "PMA": 4322,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357678947116,
+          47.5539299935032
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET CREEK EDIBLE PARK",
+        "PMA": 4572,
+        "elevation_m": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34104907562,
+          47.6191298682974
+        ]
+      },
+      "properties": {
+        "NAME": "DENNY PARK",
+        "PMA": 309,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373393971097,
+          47.696562003758
+        ]
+      },
+      "properties": {
+        "NAME": "CROWN HILL PARK",
+        "PMA": 4469,
+        "elevation_m": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34039218686,
+          47.5247711338639
+        ]
+      },
+      "properties": {
+        "NAME": "WESTCREST PARK",
+        "PMA": 468,
+        "elevation_m": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342244404508,
+          47.6067131803956
+        ]
+      },
+      "properties": {
+        "NAME": "WATERFRONT PARK",
+        "PMA": 3973,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309536901922,
+          47.6674887735481
+        ]
+      },
+      "properties": {
+        "NAME": "17TH AVENUE NE CENTERSTRIP",
+        "PMA": 4160,
+        "elevation_m": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.310580908469,
+          47.5688404708881
+        ]
+      },
+      "properties": {
+        "NAME": "JEFFERSON PARK",
+        "PMA": 114,
+        "elevation_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313031119152,
+          47.6142316918296
+        ]
+      },
+      "properties": {
+        "NAME": "MCGILVRA PLACE",
+        "PMA": 4008,
+        "elevation_m": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290401833748,
+          47.714093081557
+        ]
+      },
+      "properties": {
+        "NAME": "LITTLE BROOK CREEK NATURAL AREA",
+        "PMA": 4617,
+        "elevation_m": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343869131286,
+          47.6101532239145
+        ]
+      },
+      "properties": {
+        "NAME": "VICTOR STEINBRUECK PARK",
+        "PMA": 338,
+        "elevation_m": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349313529199,
+          47.7242085939216
+        ]
+      },
+      "properties": {
+        "NAME": "BITTER LAKE PLAYFIELD",
+        "PMA": 288,
+        "elevation_m": 134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.379833151973,
+          47.5627153179466
+        ]
+      },
+      "properties": {
+        "NAME": "FAUNTLEROY PLACE",
+        "PMA": 3921,
+        "elevation_m": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322490029584,
+          47.6522033574417
+        ]
+      },
+      "properties": {
+        "NAME": "SOUTH PASSAGE POINT PARK",
+        "PMA": 377,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284676677888,
+          47.6009493022507
+        ]
+      },
+      "properties": {
+        "NAME": "LESCHI PARK AND SOUTH MOORAGE",
+        "PMA": 367,
+        "elevation_m": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332558743159,
+          47.6641584873774
+        ]
+      },
+      "properties": {
+        "NAME": "MERIDIAN PLAYGROUND",
+        "PMA": 1104,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.378454567639,
+          47.6437522277022
+        ]
+      },
+      "properties": {
+        "NAME": "INTERBAY GOLF",
+        "PMA": 313,
+        "elevation_m": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281906494222,
+          47.5762872253765
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE WASHINGTON BOULEVARD",
+        "PMA": 412,
+        "elevation_m": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336068802953,
+          47.7195704228784
+        ]
+      },
+      "properties": {
+        "NAME": "HALLER LAKE COMMUNITY ST END",
+        "PMA": 4464,
+        "elevation_m": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329874892506,
+          47.6020214143363
+        ]
+      },
+      "properties": {
+        "NAME": "CITY HALL PARK",
+        "PMA": 306,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.310384934221,
+          47.6135063640334
+        ]
+      },
+      "properties": {
+        "NAME": "T.T. MINOR PLAYGROUND",
+        "PMA": 3913,
+        "elevation_m": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364369314563,
+          47.5628414901683
+        ]
+      },
+      "properties": {
+        "NAME": "DELRIDGE PLAYFIELD",
+        "PMA": 450,
+        "elevation_m": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390232763225,
+          47.6320521124842
+        ]
+      },
+      "properties": {
+        "NAME": "URSULA JUDKINS VIEWPOINT",
+        "PMA": 4451,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.327664432201,
+          47.626887644419
+        ]
+      },
+      "properties": {
+        "NAME": "BELLEVUE PLACE",
+        "PMA": 4022,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303574468436,
+          47.670653427615
+        ]
+      },
+      "properties": {
+        "NAME": "RAVENNA PARK",
+        "PMA": 391,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283644485052,
+          47.6752988052289
+        ]
+      },
+      "properties": {
+        "NAME": "BRYANT NEIGHBORHOOD PLAYGROUND",
+        "PMA": 482,
+        "elevation_m": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.375626265268,
+          47.4981651231893
+        ]
+      },
+      "properties": {
+        "NAME": "SEOLA PARK",
+        "PMA": 466,
+        "elevation_m": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324929228853,
+          47.6198751265521
+        ]
+      },
+      "properties": {
+        "NAME": "SUMMIT SLOPE PARK",
+        "PMA": 4461,
+        "elevation_m": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407312571963,
+          47.5784969119988
+        ]
+      },
+      "properties": {
+        "NAME": "ALKI PLAYGROUND",
+        "PMA": 446,
+        "elevation_m": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286523530332,
+          47.6563173772085
+        ]
+      },
+      "properties": {
+        "NAME": "UNION BAY BOGLANDS #2",
+        "PMA": 3751,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.374220226871,
+          47.5789734874931
+        ]
+      },
+      "properties": {
+        "NAME": "DUWAMISH HEAD GREENBELT",
+        "PMA": 284,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384964656724,
+          47.578272952963
+        ]
+      },
+      "properties": {
+        "NAME": "HIAWATHA PLAYFIELD",
+        "PMA": 456,
+        "elevation_m": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350876435021,
+          47.6683906085358
+        ]
+      },
+      "properties": {
+        "NAME": "WOODLAND PARK ZOO",
+        "PMA": 200,
+        "elevation_m": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369683804674,
+          47.6672925865971
+        ]
+      },
+      "properties": {
+        "NAME": "GILMAN PLAYGROUND",
+        "PMA": 242,
+        "elevation_m": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.388509041893,
+          47.5214098477189
+        ]
+      },
+      "properties": {
+        "NAME": "KILBOURNE PARK",
+        "PMA": 459,
+        "elevation_m": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292013560625,
+          47.5691338683926
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE PEOPLE PARK (XACUA'BS)",
+        "PMA": 4439,
+        "elevation_m": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283080643056,
+          47.6040492740093
+        ]
+      },
+      "properties": {
+        "NAME": "NORTH LESCHI MOORAGE",
+        "PMA": 367,
+        "elevation_m": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368726017811,
+          47.52008245793
+        ]
+      },
+      "properties": {
+        "NAME": "ROXHILL PARK",
+        "PMA": 464,
+        "elevation_m": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.386786637971,
+          47.6438012551222
+        ]
+      },
+      "properties": {
+        "NAME": "BAYVIEW PLAYGROUND",
+        "PMA": 303,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320222998905,
+          47.6438369700522
+        ]
+      },
+      "properties": {
+        "NAME": "ROANOKE PARK",
+        "PMA": 379,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282591433101,
+          47.6081454976369
+        ]
+      },
+      "properties": {
+        "NAME": "MADRONA PARK",
+        "PMA": 370,
+        "elevation_m": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300790762686,
+          47.5779394814867
+        ]
+      },
+      "properties": {
+        "NAME": "CHEASTY GREENSPACE",
+        "PMA": 489,
+        "elevation_m": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.355134005742,
+          47.6313425982137
+        ]
+      },
+      "properties": {
+        "NAME": "OBSERVATORY COURTS",
+        "PMA": 322,
+        "elevation_m": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369656470924,
+          47.5598602410121
+        ]
+      },
+      "properties": {
+        "NAME": "WEST SEATTLE GOLF COURSE",
+        "PMA": 469,
+        "elevation_m": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324495355162,
+          47.6004200480093
+        ]
+      },
+      "properties": {
+        "NAME": "KOBE TERRACE",
+        "PMA": 3915,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314565863733,
+          47.6266699577357
+        ]
+      },
+      "properties": {
+        "NAME": "VOLUNTEER PARKWAY",
+        "PMA": 4033,
+        "elevation_m": 142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354074601507,
+          47.5657138644975
+        ]
+      },
+      "properties": {
+        "NAME": "WESTBRIDGE SHOPS",
+        "PMA": 4420,
+        "elevation_m": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292617858401,
+          47.5899821912642
+        ]
+      },
+      "properties": {
+        "NAME": "MT BAKER RIDGE VIEWPOINT",
+        "PMA": 4427,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357895191738,
+          47.6365629088899
+        ]
+      },
+      "properties": {
+        "NAME": "QUEEN ANNE SWIMMING POOL",
+        "PMA": 337,
+        "elevation_m": 118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399817901375,
+          47.6425010383327
+        ]
+      },
+      "properties": {
+        "NAME": "CATHERINE BLAINE JR HS",
+        "PMA": 0,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309926551265,
+          47.6419890975237
+        ]
+      },
+      "properties": {
+        "NAME": "MONTLAKE PLAYFIELD",
+        "PMA": 376,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.305444962358,
+          47.6700337024792
+        ]
+      },
+      "properties": {
+        "NAME": "PARK HOME CIRCLE",
+        "PMA": 4027,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.386209314743,
+          47.5040922119244
+        ]
+      },
+      "properties": {
+        "NAME": "ARROYOS NATURAL AREA",
+        "PMA": 485,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.380549994156,
+          47.5540410062312
+        ]
+      },
+      "properties": {
+        "NAME": "FAIRMOUNT PLAYGROUND",
+        "PMA": 452,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.365207530871,
+          47.5543676254209
+        ]
+      },
+      "properties": {
+        "NAME": "COTTAGE GROVE PARK",
+        "PMA": 4462,
+        "elevation_m": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284294188229,
+          47.5189975793003
+        ]
+      },
+      "properties": {
+        "NAME": "BENEFIT PLAYGROUND",
+        "PMA": 436,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308956053435,
+          47.5523267348971
+        ]
+      },
+      "properties": {
+        "NAME": "MAPLE SCHOOL RAVINE",
+        "PMA": 1630,
+        "elevation_m": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29714914661,
+          47.5827490601631
+        ]
+      },
+      "properties": {
+        "NAME": "MARTIN LUTHER KING JR MEMORIAL",
+        "PMA": 3923,
+        "elevation_m": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433803579916,
+          47.6620719119185
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK",
+        "PMA": 2952,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317762573578,
+          47.5781902326481
+        ]
+      },
+      "properties": {
+        "NAME": "TWELFTH AVENUE SOUTH VIEWPOINT",
+        "PMA": 4159,
+        "elevation_m": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.383240966998,
+          47.6841054007523
+        ]
+      },
+      "properties": {
+        "NAME": "LOYAL HEIGHTS PLAYFIELD",
+        "PMA": 289,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357554099191,
+          47.5609522990338
+        ]
+      },
+      "properties": {
+        "NAME": "PIGEON POINT",
+        "PMA": 282,
+        "elevation_m": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313953307074,
+          47.5939844868343
+        ]
+      },
+      "properties": {
+        "NAME": "STURGUS PARK",
+        "PMA": 592,
+        "elevation_m": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.334986484637,
+          47.6456895090527
+        ]
+      },
+      "properties": {
+        "NAME": "GAS WORKS PARK",
+        "PMA": 293,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.274831363304,
+          47.5524354432368
+        ]
+      },
+      "properties": {
+        "NAME": "HILLMAN P-PATCH",
+        "PMA": 4102,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405570623009,
+          47.637671945228
+        ]
+      },
+      "properties": {
+        "NAME": "EASTMONT PLACE",
+        "PMA": 4012,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330015061308,
+          47.6102033121873
+        ]
+      },
+      "properties": {
+        "NAME": "JIM ELLIS FREEWAY PARK",
+        "PMA": 312,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332568246105,
+          47.6463480566467
+        ]
+      },
+      "properties": {
+        "NAME": "WATERWAY 19",
+        "PMA": 4083,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.358805109581,
+          47.5520818160628
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET CREEK GREENSPACE",
+        "PMA": 3993,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289618341513,
+          47.6990363831241
+        ]
+      },
+      "properties": {
+        "NAME": "MOCK CREEK RAVINE",
+        "PMA": 277,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291522104014,
+          47.5991596863629
+        ]
+      },
+      "properties": {
+        "NAME": "FRINK PARK",
+        "PMA": 392,
+        "elevation_m": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2775956318,
+          47.6622415250085
+        ]
+      },
+      "properties": {
+        "NAME": "LAURELHURST RECREATION CENTER",
+        "PMA": 4442,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337585636636,
+          47.612989692465
+        ]
+      },
+      "properties": {
+        "NAME": "MCGRAW SQUARE",
+        "PMA": 339,
+        "elevation_m": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31240108332,
+          47.6118011176839
+        ]
+      },
+      "properties": {
+        "NAME": "SPRING STREET MINI PARK",
+        "PMA": 381,
+        "elevation_m": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.371409027061,
+          47.6408493038072
+        ]
+      },
+      "properties": {
+        "NAME": "SOUNDVIEW TERRACE",
+        "PMA": 3987,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304280006166,
+          47.5674161580361
+        ]
+      },
+      "properties": {
+        "NAME": "BILL WRIGHT GOLF COMPLEX AT JEFFERSON PARK",
+        "PMA": 4153,
+        "elevation_m": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286836423248,
+          47.6046232214159
+        ]
+      },
+      "properties": {
+        "NAME": "LESCHI-LAKE DELL NATURAL AREA",
+        "PMA": 263,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312157867298,
+          47.5918887698783
+        ]
+      },
+      "properties": {
+        "NAME": "DAEJEON PARK",
+        "PMA": 4400,
+        "elevation_m": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298485057593,
+          47.5890067283795
+        ]
+      },
+      "properties": {
+        "NAME": "BLUE DOG POND",
+        "PMA": 4418,
+        "elevation_m": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.305372861331,
+          47.6771403800213
+        ]
+      },
+      "properties": {
+        "NAME": "RAVENNA-ECKSTEIN PARK",
+        "PMA": 488,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318554056342,
+          47.7063929968399
+        ]
+      },
+      "properties": {
+        "NAME": "BEAVER POND NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4481,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.307464421247,
+          47.6007041365576
+        ]
+      },
+      "properties": {
+        "NAME": "PRATT PARK",
+        "PMA": 390,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298692672767,
+          47.7201254334236
+        ]
+      },
+      "properties": {
+        "NAME": "ALBERT DAVIS PARK",
+        "PMA": 244,
+        "elevation_m": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.258375402877,
+          47.5201358024441
+        ]
+      },
+      "properties": {
+        "NAME": "CHINOOK BEACH PARK",
+        "PMA": 421,
+        "elevation_m": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400940094844,
+          47.6840332612619
+        ]
+      },
+      "properties": {
+        "NAME": "SUNSET HILL PARK",
+        "PMA": 252,
+        "elevation_m": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28249108893,
+          47.5732824606161
+        ]
+      },
+      "properties": {
+        "NAME": "SIERRA PLACE",
+        "PMA": 3928,
+        "elevation_m": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295424244077,
+          47.5874180461423
+        ]
+      },
+      "properties": {
+        "NAME": "BRADNER GARDENS PARK",
+        "PMA": 401,
+        "elevation_m": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294771574218,
+          47.6881502118811
+        ]
+      },
+      "properties": {
+        "NAME": "WEDGWOOD SQUARE",
+        "PMA": 3899,
+        "elevation_m": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313421732441,
+          47.6652075109816
+        ]
+      },
+      "properties": {
+        "NAME": "UNIVERSITY HEIGHTS",
+        "PMA": 4471,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.396191441786,
+          47.5833187096703
+        ]
+      },
+      "properties": {
+        "NAME": "COLLEGE STREET RAVINE",
+        "PMA": 260,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319132244035,
+          47.6170134279471
+        ]
+      },
+      "properties": {
+        "NAME": "CAL ANDERSON PARK",
+        "PMA": 3102,
+        "elevation_m": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34889731425,
+          47.6500981370511
+        ]
+      },
+      "properties": {
+        "NAME": "A. B. ERNST PARK",
+        "PMA": 4404,
+        "elevation_m": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313344801718,
+          47.67616729083
+        ]
+      },
+      "properties": {
+        "NAME": "ROOSEVELT LAND-BANK SITE",
+        "PMA": 4653,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4099944076,
+          47.568517091108
+        ]
+      },
+      "properties": {
+        "NAME": "ANDOVER PLACE",
+        "PMA": 2927,
+        "elevation_m": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294572409632,
+          47.6087323662459
+        ]
+      },
+      "properties": {
+        "NAME": "NORAS WOODS",
+        "PMA": 4403,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300146343329,
+          47.6462123880906
+        ]
+      },
+      "properties": {
+        "NAME": "EAST MONTLAKE PARK",
+        "PMA": 374,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.380697163721,
+          47.5383007811882
+        ]
+      },
+      "properties": {
+        "NAME": "ORCHARD STREET RAVINE",
+        "PMA": 300,
+        "elevation_m": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297009615548,
+          47.6297495896581
+        ]
+      },
+      "properties": {
+        "NAME": "WASHINGTON PARK - JAPANESE GDN",
+        "PMA": 4487,
+        "elevation_m": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290736591197,
+          47.6193289020279
+        ]
+      },
+      "properties": {
+        "NAME": "HARRISON RIDGE GREENBELT",
+        "PMA": 356,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276186009626,
+          47.6358131304458
+        ]
+      },
+      "properties": {
+        "NAME": "MADISON PARK",
+        "PMA": 369,
+        "elevation_m": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319214307637,
+          47.5309693099061
+        ]
+      },
+      "properties": {
+        "NAME": "DUWAMISH WATERWAY PARK",
+        "PMA": 705,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323413345543,
+          47.5968971977669
+        ]
+      },
+      "properties": {
+        "NAME": "DONNIE CHIN INTERNATIONAL CHILDREN'S PARK",
+        "PMA": 364,
+        "elevation_m": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368004089331,
+          47.6804810918434
+        ]
+      },
+      "properties": {
+        "NAME": "KIRKE PARK",
+        "PMA": 4468,
+        "elevation_m": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295267418882,
+          47.7188205003764
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE CITY MEMORIAL TRIANGLE",
+        "PMA": 333,
+        "elevation_m": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250035791909,
+          47.5106127377557
+        ]
+      },
+      "properties": {
+        "NAME": "THAYER PLACE",
+        "PMA": 4014,
+        "elevation_m": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.419043026525,
+          47.5743734586131
+        ]
+      },
+      "properties": {
+        "NAME": "CHARLES RICHEY SR VIEWPOINT",
+        "PMA": 80,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39580084178,
+          47.6328800939836
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA BOULEVARD",
+        "PMA": 317,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.327635209069,
+          47.521621414999
+        ]
+      },
+      "properties": {
+        "NAME": "MARRA-DESIMONE PARK",
+        "PMA": 4447,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.416128737817,
+          47.6607076214021
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK BOULEVARD",
+        "PMA": 4470,
+        "elevation_m": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394382041174,
+          47.514546620027
+        ]
+      },
+      "properties": {
+        "NAME": "ENDOLYNE PARK",
+        "PMA": 1653,
+        "elevation_m": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349223401817,
+          47.6560305845501
+        ]
+      },
+      "properties": {
+        "NAME": "B.F. DAY PLAYGROUND",
+        "PMA": 241,
+        "elevation_m": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298936059523,
+          47.7151126961087
+        ]
+      },
+      "properties": {
+        "NAME": "HOMEWOOD NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4417,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321394666416,
+          47.5516187676238
+        ]
+      },
+      "properties": {
+        "NAME": "GEORGETOWN PLAYFIELD",
+        "PMA": 410,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359947552473,
+          47.5473669642913
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET RIDGE PLAYGROUND",
+        "PMA": 4201,
+        "elevation_m": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337283868541,
+          47.6136266153525
+        ]
+      },
+      "properties": {
+        "NAME": "WESTLAKE SQUARE",
+        "PMA": 334,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347718457105,
+          47.6514325816104
+        ]
+      },
+      "properties": {
+        "NAME": "TROLL'S KNOLL PARK",
+        "PMA": 4599,
+        "elevation_m": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.306375759883,
+          47.5914547810428
+        ]
+      },
+      "properties": {
+        "NAME": "JUDGE CHARLES M. STOKES OVERLOOK",
+        "PMA": 4244,
+        "elevation_m": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349244795707,
+          47.6277472693415
+        ]
+      },
+      "properties": {
+        "NAME": "WARD SPRINGS PARK",
+        "PMA": 763,
+        "elevation_m": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247351259233,
+          47.505772913563
+        ]
+      },
+      "properties": {
+        "NAME": "LAKERIDGE PARK",
+        "PMA": 411,
+        "elevation_m": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.392723917857,
+          47.5414722380457
+        ]
+      },
+      "properties": {
+        "NAME": "PELLY PLACE NATURAL AREA",
+        "PMA": 237,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301384755419,
+          47.6071160537286
+        ]
+      },
+      "properties": {
+        "NAME": "GARFIELD PLAYFIELD",
+        "PMA": 353,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368674330027,
+          47.5513828472249
+        ]
+      },
+      "properties": {
+        "NAME": "LONGFELLOW CREEK NATURAL AREA",
+        "PMA": 265,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39706315105,
+          47.5795655881452
+        ]
+      },
+      "properties": {
+        "NAME": "NANTES PARK",
+        "PMA": 3916,
+        "elevation_m": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.378705320273,
+          47.5890015381288
+        ]
+      },
+      "properties": {
+        "NAME": "SEACREST PARK",
+        "PMA": 455,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324406046954,
+          47.6257265348897
+        ]
+      },
+      "properties": {
+        "NAME": "BELMONT PLACE",
+        "PMA": 346,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353354848246,
+          47.6432417728782
+        ]
+      },
+      "properties": {
+        "NAME": "MAYFAIR PARK",
+        "PMA": 321,
+        "elevation_m": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.392350327373,
+          47.5223990294695
+        ]
+      },
+      "properties": {
+        "NAME": "FAUNTLEROY CREEK RAVINE",
+        "PMA": 3149,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.396012318551,
+          47.5311762527731
+        ]
+      },
+      "properties": {
+        "NAME": "LINCOLN PARK",
+        "PMA": 460,
+        "elevation_m": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309845047687,
+          47.5841064962823
+        ]
+      },
+      "properties": {
+        "NAME": "17TH AVE S AND S WALKER ST",
+        "PMA": 4711,
+        "elevation_m": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281918902355,
+          47.5733271549284
+        ]
+      },
+      "properties": {
+        "NAME": "LANDING PARKWAY",
+        "PMA": 3929,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336370524996,
+          47.6471241188825
+        ]
+      },
+      "properties": {
+        "NAME": "WALLINGFORD STEPS",
+        "PMA": 4598,
+        "elevation_m": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28730173943,
+          47.5847737541532
+        ]
+      },
+      "properties": {
+        "NAME": "MOUNT BAKER PARK",
+        "PMA": 405,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308923389341,
+          47.5895166956506
+        ]
+      },
+      "properties": {
+        "NAME": "I-90 LID: UNNAMED",
+        "PMA": 4432,
+        "elevation_m": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282004184521,
+          47.6187495205489
+        ]
+      },
+      "properties": {
+        "NAME": "VIRETTA PARK",
+        "PMA": 3098,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280351592899,
+          47.6917156453527
+        ]
+      },
+      "properties": {
+        "NAME": "INVERNESS RAVINE PARK",
+        "PMA": 4001,
+        "elevation_m": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359483980723,
+          47.6441471631199
+        ]
+      },
+      "properties": {
+        "NAME": "DAVID RODGERS PARK",
+        "PMA": 331,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311627914568,
+          47.6352743769791
+        ]
+      },
+      "properties": {
+        "NAME": "BOREN PARK",
+        "PMA": 362,
+        "elevation_m": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333029920247,
+          47.6843175341696
+        ]
+      },
+      "properties": {
+        "NAME": "CRESCENT PLACE",
+        "PMA": 4018,
+        "elevation_m": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316432590868,
+          47.6072543650085
+        ]
+      },
+      "properties": {
+        "NAME": "12TH AVE SQUARE PARK",
+        "PMA": 4467,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322908479188,
+          47.6291760375431
+        ]
+      },
+      "properties": {
+        "NAME": "1125 HARVARD AVE E",
+        "PMA": 4609,
+        "elevation_m": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391067048556,
+          47.6551089202429
+        ]
+      },
+      "properties": {
+        "NAME": "LAWTON PARK",
+        "PMA": 316,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32415999287,
+          47.5280169063207
+        ]
+      },
+      "properties": {
+        "NAME": "SOUTH PARK PLAYGROUND",
+        "PMA": 467,
+        "elevation_m": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262568612561,
+          47.5298837931706
+        ]
+      },
+      "properties": {
+        "NAME": "PRITCHARD ISLAND BEACH",
+        "PMA": 420,
+        "elevation_m": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390347149298,
+          47.5364135600066
+        ]
+      },
+      "properties": {
+        "NAME": "SOLSTICE PARK",
+        "PMA": 4453,
+        "elevation_m": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.341041818516,
+          47.5356802882769
+        ]
+      },
+      "properties": {
+        "NAME": "WEST DUWAMISH GREENBELT",
+        "PMA": 484,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28209760913,
+          47.5483885367183
+        ]
+      },
+      "properties": {
+        "NAME": "BRIGHTON PLAYFIELD",
+        "PMA": 402,
+        "elevation_m": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317925580476,
+          47.5802417831068
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 430,
+        "elevation_m": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263724264524,
+          47.5243020469785
+        ]
+      },
+      "properties": {
+        "NAME": "BEER SHEVA PARK",
+        "PMA": 440,
+        "elevation_m": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291063130051,
+          47.5762667177002
+        ]
+      },
+      "properties": {
+        "NAME": "MOUNT BAKER BOULEVARD",
+        "PMA": 4020,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.344774199923,
+          47.6143324287619
+        ]
+      },
+      "properties": {
+        "NAME": "REGRADE PARK",
+        "PMA": 336,
+        "elevation_m": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319403555559,
+          47.7240832465422
+        ]
+      },
+      "properties": {
+        "NAME": "FLICKER HAVEN NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4618,
+        "elevation_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357603616873,
+          47.6666855455229
+        ]
+      },
+      "properties": {
+        "NAME": "SUNSET PLACE",
+        "PMA": 3901,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278260560003,
+          47.6970841011754
+        ]
+      },
+      "properties": {
+        "NAME": "CHINOOK PASSAGE NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4620,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337847576898,
+          47.6168666393721
+        ]
+      },
+      "properties": {
+        "NAME": "URBAN TRIANGLE PARK",
+        "PMA": 4384,
+        "elevation_m": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354951678055,
+          47.6880320133861
+        ]
+      },
+      "properties": {
+        "NAME": "ALICE BALL PARK",
+        "PMA": 4484,
+        "elevation_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287891759353,
+          47.5902220069817
+        ]
+      },
+      "properties": {
+        "NAME": "EAST PORTAL VIEWPOINT",
+        "PMA": 4241,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359632407068,
+          47.6353490426066
+        ]
+      },
+      "properties": {
+        "NAME": "WEST QUEEN ANNE PLAYFIELD",
+        "PMA": 330,
+        "elevation_m": 113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286199306165,
+          47.5618186555185
+        ]
+      },
+      "properties": {
+        "NAME": "RAINIER PLAYFIELD",
+        "PMA": 423,
+        "elevation_m": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.321832233921,
+          47.6844261696974
+        ]
+      },
+      "properties": {
+        "NAME": "BANNER WAY TRIANGLES",
+        "PMA": 4073,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32164285117,
+          47.6410896240089
+        ]
+      },
+      "properties": {
+        "NAME": "HARVARD-MILLER/ROANOKE ANNEX",
+        "PMA": 3695,
+        "elevation_m": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27611763214,
+          47.6390836426147
+        ]
+      },
+      "properties": {
+        "NAME": "MADISON PARK NORTH BEACH",
+        "PMA": 4441,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409139456279,
+          47.6512913783577
+        ]
+      },
+      "properties": {
+        "NAME": "ARAPAHOE TRIANGLE",
+        "PMA": 1556,
+        "elevation_m": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298098948004,
+          47.720114302409
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE CITY COMMUNITY CENTER GARAGE AND PLAZA",
+        "PMA": 4344,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27810646666,
+          47.5362143669968
+        ]
+      },
+      "properties": {
+        "NAME": "OTHELLO PARK",
+        "PMA": 403,
+        "elevation_m": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400986559141,
+          47.6616473487332
+        ]
+      },
+      "properties": {
+        "NAME": "KIWANIS MEMORIAL PRESERVE PARK",
+        "PMA": 246,
+        "elevation_m": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304360798147,
+          47.6002207376285
+        ]
+      },
+      "properties": {
+        "NAME": "DR. BLANCHE LAVIZZO PARK",
+        "PMA": 395,
+        "elevation_m": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391254053916,
+          47.6513695562223
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA MANOR PARK",
+        "PMA": 747,
+        "elevation_m": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390625712975,
+          47.6346734995365
+        ]
+      },
+      "properties": {
+        "NAME": "THORNDYKE PARK",
+        "PMA": 343,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.361032637167,
+          47.6689036429062
+        ]
+      },
+      "properties": {
+        "NAME": "GREENWOOD TRIANGLE",
+        "PMA": 245,
+        "elevation_m": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300714884631,
+          47.5644581480416
+        ]
+      },
+      "properties": {
+        "NAME": "CHEASTY BOULEVARD",
+        "PMA": 4214,
+        "elevation_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320825153216,
+          47.6543653515516
+        ]
+      },
+      "properties": {
+        "NAME": "NORTHLAKE PARK",
+        "PMA": 4452,
+        "elevation_m": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393083848471,
+          47.5615139322202
+        ]
+      },
+      "properties": {
+        "NAME": "ERCOLINI PARK",
+        "PMA": 4454,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385854078949,
+          47.5612661230555
+        ]
+      },
+      "properties": {
+        "NAME": "JUNCTION PLAZA PARK",
+        "PMA": 4455,
+        "elevation_m": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.382143655677,
+          47.6795172327289
+        ]
+      },
+      "properties": {
+        "NAME": "SALMON BAY PARK",
+        "PMA": 249,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349546879852,
+          47.5615143107674
+        ]
+      },
+      "properties": {
+        "NAME": "HERRINGS HOUSE PARK (T'UL'ALTXW)",
+        "PMA": 4412,
+        "elevation_m": -5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34703841425,
+          47.6351418388239
+        ]
+      },
+      "properties": {
+        "NAME": "TROLLEY HILL PARK",
+        "PMA": 4421,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330872044268,
+          47.6651988564426
+        ]
+      },
+      "properties": {
+        "NAME": "CORLISS PLACE",
+        "PMA": 4017,
+        "elevation_m": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433521388763,
+          47.6554203508768
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK TIDELANDS",
+        "PMA": 2952,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.358092759024,
+          47.6662167199318
+        ]
+      },
+      "properties": {
+        "NAME": "CASCADE PLACE",
+        "PMA": 3902,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288634018624,
+          47.5805006758276
+        ]
+      },
+      "properties": {
+        "NAME": "MOUNT BAKER PARK",
+        "PMA": 419,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313091761252,
+          47.619810176834
+        ]
+      },
+      "properties": {
+        "NAME": "WILLIAMS PLACE",
+        "PMA": 4016,
+        "elevation_m": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280733148964,
+          47.7229859078503
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE CITY BEACH PARK",
+        "PMA": 4654,
+        "elevation_m": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390511153224,
+          47.5066814494101
+        ]
+      },
+      "properties": {
+        "NAME": "STIM BULLITT NATURAL AREA",
+        "PMA": 4488,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.253843896297,
+          47.6794638606015
+        ]
+      },
+      "properties": {
+        "NAME": "WARREN G. MAGNUSON PARK",
+        "PMA": 398,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349032471753,
+          47.5273786209779
+        ]
+      },
+      "properties": {
+        "NAME": "HIGHLAND PARK PLAYGROUND",
+        "PMA": 457,
+        "elevation_m": 133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.398690881577,
+          47.6426012274063
+        ]
+      },
+      "properties": {
+        "NAME": "LOWERY C. \"POP\" MOUNGER POOL",
+        "PMA": 4473,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303106035625,
+          47.6060101426887
+        ]
+      },
+      "properties": {
+        "NAME": "GARFIELD PLAYFIELD",
+        "PMA": 3115,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366807052031,
+          47.6294368516253
+        ]
+      },
+      "properties": {
+        "NAME": "MARSHALL PARK",
+        "PMA": 320,
+        "elevation_m": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325707300498,
+          47.6293904142498
+        ]
+      },
+      "properties": {
+        "NAME": "LAKEVIEW PLACE",
+        "PMA": 366,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41661018791,
+          47.6674766069702
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK",
+        "PMA": 0,
+        "elevation_m": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.343767891587,
+          47.6077784971671
+        ]
+      },
+      "properties": {
+        "NAME": "SEATTLE AQUARIUM",
+        "PMA": 335,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316999878964,
+          47.7235102929308
+        ]
+      },
+      "properties": {
+        "NAME": "LICORICE FERN NATURAL AREA ON THORNTON CREEK",
+        "PMA": 4479,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293172892093,
+          47.625168304151
+        ]
+      },
+      "properties": {
+        "NAME": "3001 E MADISON",
+        "PMA": 296,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294565207548,
+          47.7313902800451
+        ]
+      },
+      "properties": {
+        "NAME": "LITTLE BROOK PARK",
+        "PMA": 297,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309871072839,
+          47.6018533452554
+        ]
+      },
+      "properties": {
+        "NAME": "LANGSTON HUGHES ANNEX",
+        "PMA": 256,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28031311296,
+          47.6175176494977
+        ]
+      },
+      "properties": {
+        "NAME": "HOWELL PARK",
+        "PMA": 359,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319085712797,
+          47.7295314380305
+        ]
+      },
+      "properties": {
+        "NAME": "JACKSON PARK GOLF COURSE",
+        "PMA": 327,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320951689482,
+          47.6049977812334
+        ]
+      },
+      "properties": {
+        "NAME": "BOREN PLACE",
+        "PMA": 3116,
+        "elevation_m": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364153264804,
+          47.6268101182893
+        ]
+      },
+      "properties": {
+        "NAME": "BLAINE PLACE",
+        "PMA": 3907,
+        "elevation_m": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.305788635755,
+          47.620324558552
+        ]
+      },
+      "properties": {
+        "NAME": "MILLER TRIANGLE",
+        "PMA": 4015,
+        "elevation_m": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316001562643,
+          47.7067967166615
+        ]
+      },
+      "properties": {
+        "NAME": "VICTORY CREEK CONFLUENCE NATURAL AREA ON TC",
+        "PMA": 416,
+        "elevation_m": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29937349394,
+          47.7179560240836
+        ]
+      },
+      "properties": {
+        "NAME": "VIRGIL FLAIM PARK",
+        "PMA": 4002,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356112357255,
+          47.5597531390003
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET BOULEVARD",
+        "PMA": 4158,
+        "elevation_m": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.381395609172,
+          47.6937024096062
+        ]
+      },
+      "properties": {
+        "NAME": "CROWN HILL GLEN",
+        "PMA": 4070,
+        "elevation_m": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322833798416,
+          47.5960537766841
+        ]
+      },
+      "properties": {
+        "NAME": "ID/CHINATOWN COMMUNITY CENTER",
+        "PMA": 4437,
+        "elevation_m": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308559743936,
+          47.6084470900881
+        ]
+      },
+      "properties": {
+        "NAME": "FIREHOUSE MINI PARK",
+        "PMA": 351,
+        "elevation_m": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286726985705,
+          47.6009829870603
+        ]
+      },
+      "properties": {
+        "NAME": "LESCHI PARK",
+        "PMA": 367,
+        "elevation_m": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266064440856,
+          47.512937642974
+        ]
+      },
+      "properties": {
+        "NAME": "KUBOTA GARDENS",
+        "PMA": 415,
+        "elevation_m": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293494116141,
+          47.7057719813553
+        ]
+      },
+      "properties": {
+        "NAME": "MEADOWBROOK PLAYFIELD",
+        "PMA": 352,
+        "elevation_m": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376996418202,
+          47.6411823794431
+        ]
+      },
+      "properties": {
+        "NAME": "INTERBAY P-PATCH",
+        "PMA": 4086,
+        "elevation_m": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.344531217802,
+          47.634967945758
+        ]
+      },
+      "properties": {
+        "NAME": "NORTHEAST QUEEN ANNE GREENBELT",
+        "PMA": 279,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319052717683,
+          47.5385790343838
+        ]
+      },
+      "properties": {
+        "NAME": "GEORGETOWN FLUME PARK",
+        "PMA": 4714,
+        "elevation_m": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.385744858856,
+          47.5930213246743
+        ]
+      },
+      "properties": {
+        "NAME": "HAMILTON VIEWPOINT PARK",
+        "PMA": 454,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328989142738,
+          47.6143572417758
+        ]
+      },
+      "properties": {
+        "NAME": "PLYMOUTH PILLARS PARK",
+        "PMA": 4000,
+        "elevation_m": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291130094774,
+          47.6911461777784
+        ]
+      },
+      "properties": {
+        "NAME": "WEDGWOOD PARK",
+        "PMA": 654,
+        "elevation_m": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315325324225,
+          47.5862276426305
+        ]
+      },
+      "properties": {
+        "NAME": "BEACON HILL PLAYGROUND",
+        "PMA": 400,
+        "elevation_m": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.387671403708,
+          47.6326896807588
+        ]
+      },
+      "properties": {
+        "NAME": "SMITH COVE PARK",
+        "PMA": 4433,
+        "elevation_m": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357839818155,
+          47.6517729103254
+        ]
+      },
+      "properties": {
+        "NAME": "FREMONT CANAL PARK",
+        "PMA": 4011,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.302229236205,
+          47.6741181450672
+        ]
+      },
+      "properties": {
+        "NAME": "RAVENNA RAVINE",
+        "PMA": 254,
+        "elevation_m": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319093845734,
+          47.5663113247122
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 3925,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311823042381,
+          47.6179019213789
+        ]
+      },
+      "properties": {
+        "NAME": "SEVEN HILLS PARK",
+        "PMA": 4466,
+        "elevation_m": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284839797206,
+          47.6183305477088
+        ]
+      },
+      "properties": {
+        "NAME": "DENNY BLAINE LAKE PARK",
+        "PMA": 3980,
+        "elevation_m": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.277106897498,
+          47.6632875068387
+        ]
+      },
+      "properties": {
+        "NAME": "SUN PARK",
+        "PMA": 4655,
+        "elevation_m": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330084577751,
+          47.5993611941002
+        ]
+      },
+      "properties": {
+        "NAME": "UNION STATION SQUARE",
+        "PMA": 4007,
+        "elevation_m": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288742972525,
+          47.6143197443116
+        ]
+      },
+      "properties": {
+        "NAME": "ALVIN LARKINS PARK",
+        "PMA": 3914,
+        "elevation_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292938216674,
+          47.6180219363314
+        ]
+      },
+      "properties": {
+        "NAME": "WILLIAM GROSE PARK",
+        "PMA": 385,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.350777065356,
+          47.6138897886546
+        ]
+      },
+      "properties": {
+        "NAME": "BELLTOWN COTTAGE PARK",
+        "PMA": 4415,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.367207053725,
+          47.6273170899141
+        ]
+      },
+      "properties": {
+        "NAME": "KINNEAR PARK",
+        "PMA": 314,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333273251203,
+          47.6004627706979
+        ]
+      },
+      "properties": {
+        "NAME": "OCCIDENTAL SQUARE",
+        "PMA": 323,
+        "elevation_m": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329597587286,
+          47.6397284551325
+        ]
+      },
+      "properties": {
+        "NAME": "LYNN STREET MINI PARK",
+        "PMA": 4075,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322084023762,
+          47.7029247848314
+        ]
+      },
+      "properties": {
+        "NAME": "MAPLE LEAF COMMUNITY GARDEN",
+        "PMA": 4434,
+        "elevation_m": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.383254818162,
+          47.5602143466331
+        ]
+      },
+      "properties": {
+        "NAME": "WEST SEATTLE JUNCTION",
+        "PMA": 4568,
+        "elevation_m": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.360603057709,
+          47.6520492640035
+        ]
+      },
+      "properties": {
+        "NAME": "WEST EWING MINI PARK",
+        "PMA": 3694,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297959975188,
+          47.5606216908455
+        ]
+      },
+      "properties": {
+        "NAME": "CHEASTY GREENSPACE: MT VIEW",
+        "PMA": 269,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.307637543432,
+          47.6164024151402
+        ]
+      },
+      "properties": {
+        "NAME": "CAYTON CORNER PARK",
+        "PMA": 4478,
+        "elevation_m": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338293778725,
+          47.6780740956797
+        ]
+      },
+      "properties": {
+        "NAME": "GREEN LAKE",
+        "PMA": 307,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328895529887,
+          47.6431261281605
+        ]
+      },
+      "properties": {
+        "NAME": "ROANOKE STREET MINI PARK",
+        "PMA": 4084,
+        "elevation_m": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.379117172462,
+          47.6741866552955
+        ]
+      },
+      "properties": {
+        "NAME": "BALLARD CORNERS PARK",
+        "PMA": 4428,
+        "elevation_m": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.361807336955,
+          47.6194384045153
+        ]
+      },
+      "properties": {
+        "NAME": "MYRTLE EDWARDS PARK",
+        "PMA": 311,
+        "elevation_m": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.348402741117,
+          47.6304262850879
+        ]
+      },
+      "properties": {
+        "NAME": "BHY KRACKE PARK",
+        "PMA": 304,
+        "elevation_m": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34339238824,
+          47.6415887828914
+        ]
+      },
+      "properties": {
+        "NAME": "WESTLAKE GREENBELT",
+        "PMA": 494,
+        "elevation_m": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40971735433,
+          47.6403544331254
+        ]
+      },
+      "properties": {
+        "NAME": "PARKMONT PLACE",
+        "PMA": 4009,
+        "elevation_m": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373517394823,
+          47.6719932420082
+        ]
+      },
+      "properties": {
+        "NAME": "GEMENSKAP PARK",
+        "PMA": 4619,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356323826707,
+          47.6256813407416
+        ]
+      },
+      "properties": {
+        "NAME": "COUNTERBALANCE PARK",
+        "PMA": 4438,
+        "elevation_m": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.395216041302,
+          47.6707104810956
+        ]
+      },
+      "properties": {
+        "NAME": "THYME PATCH PARK",
+        "PMA": 4405,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275572146033,
+          47.571071493981
+        ]
+      },
+      "properties": {
+        "NAME": "STANLEY SAYRES MEMORIAL PARK",
+        "PMA": 425,
+        "elevation_m": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337433510532,
+          47.6585540223618
+        ]
+      },
+      "properties": {
+        "NAME": "WALLINGFORD PLAYFIELD",
+        "PMA": 449,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405077375396,
+          47.5776305742478
+        ]
+      },
+      "properties": {
+        "NAME": "SCHMITZ BOULEVARD",
+        "PMA": 4236,
+        "elevation_m": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.359947373093,
+          47.6291729376829
+        ]
+      },
+      "properties": {
+        "NAME": "KERRY PARK AND VIEWPOINT",
+        "PMA": 342,
+        "elevation_m": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391058070705,
+          47.6405849213314
+        ]
+      },
+      "properties": {
+        "NAME": "ELLA BAILEY PARK",
+        "PMA": 318,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283718755322,
+          47.5760582323279
+        ]
+      },
+      "properties": {
+        "NAME": "LAKEWOOD TRIANGLE",
+        "PMA": 4024,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.410926961068,
+          47.6630780161471
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK",
+        "PMA": 4470,
+        "elevation_m": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384971723951,
+          47.6679766058569
+        ]
+      },
+      "properties": {
+        "NAME": "MARVINS GARDEN",
+        "PMA": 298,
+        "elevation_m": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285948565915,
+          47.6943202346971
+        ]
+      },
+      "properties": {
+        "NAME": "MAPLE SPRINGS NATURAL AREA",
+        "PMA": 4615,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376577834361,
+          47.7120581656611
+        ]
+      },
+      "properties": {
+        "NAME": "CARKEEK PARK",
+        "PMA": 240,
+        "elevation_m": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366396772887,
+          47.5446120581122
+        ]
+      },
+      "properties": {
+        "NAME": "LONGFELLOW CREEK GREENSPACE",
+        "PMA": 265,
+        "elevation_m": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287393676974,
+          47.5597923862233
+        ]
+      },
+      "properties": {
+        "NAME": "COLUMBIA PARK",
+        "PMA": 4034,
+        "elevation_m": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373095065962,
+          47.6364714753664
+        ]
+      },
+      "properties": {
+        "NAME": "TWELFTH WEST AND W HOWE PARK",
+        "PMA": 281,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268504551371,
+          47.5177047451466
+        ]
+      },
+      "properties": {
+        "NAME": "STURTEVANT RAVINE",
+        "PMA": 290,
+        "elevation_m": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273135272714,
+          47.5250409871806
+        ]
+      },
+      "properties": {
+        "NAME": "RAINIER BEACH PLAYFIELD",
+        "PMA": 422,
+        "elevation_m": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304618677502,
+          47.645135482129
+        ]
+      },
+      "properties": {
+        "NAME": "MONTLAKE BOULEVARD",
+        "PMA": 4021,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.380445433946,
+          47.7043278054875
+        ]
+      },
+      "properties": {
+        "NAME": "BLUE RIDGE CIRCLE",
+        "PMA": 238,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282888089029,
+          47.6323036653546
+        ]
+      },
+      "properties": {
+        "NAME": "HYDE PLACE",
+        "PMA": 3905,
+        "elevation_m": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316106406488,
+          47.6519115642833
+        ]
+      },
+      "properties": {
+        "NAME": "FRITZ HEDGES WATERWAY PARK",
+        "PMA": 4490,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.358758461316,
+          47.5468099824796
+        ]
+      },
+      "properties": {
+        "NAME": "PUGET CREEK NATURAL AREA",
+        "PMA": 3993,
+        "elevation_m": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333887244621,
+          47.6020762788935
+        ]
+      },
+      "properties": {
+        "NAME": "PIONEER SQUARE",
+        "PMA": 325,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285724832671,
+          47.5903635734069
+        ]
+      },
+      "properties": {
+        "NAME": "SOUTH DAY STREET PARK",
+        "PMA": 4082,
+        "elevation_m": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27748548773,
+          47.6526966713504
+        ]
+      },
+      "properties": {
+        "NAME": "LAURELHURST TRIANGLE",
+        "PMA": 4162,
+        "elevation_m": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330884099361,
+          47.6018444878512
+        ]
+      },
+      "properties": {
+        "NAME": "PREFONTAINE PLACE",
+        "PMA": 326,
+        "elevation_m": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299309356722,
+          47.6852670433672
+        ]
+      },
+      "properties": {
+        "NAME": "DAHL (WALDO J.) PLAYFIELD",
+        "PMA": 499,
+        "elevation_m": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325434523658,
+          47.5986074014644
+        ]
+      },
+      "properties": {
+        "NAME": "HING HAY PARK",
+        "PMA": 358,
+        "elevation_m": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.307655838944,
+          47.7055873311144
+        ]
+      },
+      "properties": {
+        "NAME": "VICTORY HEIGHTS PLAYGROUND",
+        "PMA": 438,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32244356678,
+          47.7059209931325
+        ]
+      },
+      "properties": {
+        "NAME": "NORTHGATE COMMUNITY CENTER",
+        "PMA": 4425,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.340029518873,
+          47.605578641516
+        ]
+      },
+      "properties": {
+        "NAME": "ALASKAN WAY BOULEVARD",
+        "PMA": 4449,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295998151706,
+          47.6051970252475
+        ]
+      },
+      "properties": {
+        "NAME": "POWELL BARNETT PARK",
+        "PMA": 345,
+        "elevation_m": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295489548071,
+          47.5530376329229
+        ]
+      },
+      "properties": {
+        "NAME": "DEARBORN PARK",
+        "PMA": 408,
+        "elevation_m": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318444661568,
+          47.5961970107654
+        ]
+      },
+      "properties": {
+        "NAME": "BEACON PLACE",
+        "PMA": 3119,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30316123583,
+          47.6625596692084
+        ]
+      },
+      "properties": {
+        "NAME": "RAVENNA WOODS",
+        "PMA": 4411,
+        "elevation_m": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280059787326,
+          47.7189376200359
+        ]
+      },
+      "properties": {
+        "NAME": "UNIVERSITY LAKE SHORE PLACE",
+        "PMA": 3998,
+        "elevation_m": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.252449500049,
+          47.5542997703435
+        ]
+      },
+      "properties": {
+        "NAME": "SEWARD PARK",
+        "PMA": 428,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294197278532,
+          47.6265734918377
+        ]
+      },
+      "properties": {
+        "NAME": "WASHINGTON PARK",
+        "PMA": 4486,
+        "elevation_m": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337483531235,
+          47.6455216920614
+        ]
+      },
+      "properties": {
+        "NAME": "HARBOR PATROL",
+        "PMA": 478,
+        "elevation_m": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352848789068,
+          47.6298013128553
+        ]
+      },
+      "properties": {
+        "NAME": "HIGHLAND DRIVE PARKWAY",
+        "PMA": 3983,
+        "elevation_m": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356670702589,
+          47.6611081115384
+        ]
+      },
+      "properties": {
+        "NAME": "FREMONT PEAK PARK",
+        "PMA": 4424,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276750127976,
+          47.5177842259856
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 4046,
+        "elevation_m": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.375197822453,
+          47.6354577065543
+        ]
+      },
+      "properties": {
+        "NAME": "WEST CENTRAL GROUNDS MAINTENANCE",
+        "PMA": 257,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280296488052,
+          47.6200622527309
+        ]
+      },
+      "properties": {
+        "NAME": "DENNY BLAINE PARK",
+        "PMA": 3982,
+        "elevation_m": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291581632795,
+          47.5866332307947
+        ]
+      },
+      "properties": {
+        "NAME": "COLMAN PARK",
+        "PMA": 405,
+        "elevation_m": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.352331252572,
+          47.6404045606961
+        ]
+      },
+      "properties": {
+        "NAME": "WOLF CREEK RAVINE NATURAL AREA",
+        "PMA": 278,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38669489199,
+          47.5856407035444
+        ]
+      },
+      "properties": {
+        "NAME": "CALIFORNIA PLACE",
+        "PMA": 448,
+        "elevation_m": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38669467448,
+          47.6295564334135
+        ]
+      },
+      "properties": {
+        "NAME": "OPEN WATER PARK",
+        "PMA": 3005,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391042954283,
+          47.6947265829241
+        ]
+      },
+      "properties": {
+        "NAME": "NORTH BEACH PARK",
+        "PMA": 247,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.356957086163,
+          47.6261590272447
+        ]
+      },
+      "properties": {
+        "NAME": "KINNEAR PLACE",
+        "PMA": 315,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.361346963107,
+          47.6597189706119
+        ]
+      },
+      "properties": {
+        "NAME": "ROSS PLAYGROUND",
+        "PMA": 248,
+        "elevation_m": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315495082629,
+          47.6901513917465
+        ]
+      },
+      "properties": {
+        "NAME": "MAPLE LEAF RESERVOIR PARK",
+        "PMA": 3881,
+        "elevation_m": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295874489091,
+          47.7191096360801
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE CITY MINI PARK",
+        "PMA": 487,
+        "elevation_m": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.288043899165,
+          47.7258087699822
+        ]
+      },
+      "properties": {
+        "NAME": "CEDAR PARK",
+        "PMA": 4167,
+        "elevation_m": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.369543577132,
+          47.5328049355508
+        ]
+      },
+      "properties": {
+        "NAME": "E.C. HUGHES PLAYGROUND",
+        "PMA": 458,
+        "elevation_m": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.374347852194,
+          47.5628212385317
+        ]
+      },
+      "properties": {
+        "NAME": "WEST SEATTLE STADIUM",
+        "PMA": 472,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399380591166,
+          47.6454581165183
+        ]
+      },
+      "properties": {
+        "NAME": "WEST MAGNOLIA PLAYFIELD",
+        "PMA": 319,
+        "elevation_m": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.410781096938,
+          47.639171791585
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA BOULEVARD",
+        "PMA": 2843,
+        "elevation_m": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391549543878,
+          47.6727859012727
+        ]
+      },
+      "properties": {
+        "NAME": "BALLARD PLAYGROUND",
+        "PMA": 497,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.345193491847,
+          47.6403409587093
+        ]
+      },
+      "properties": {
+        "NAME": "THOMAS C. WALES PARK",
+        "PMA": 1106,
+        "elevation_m": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.341364447094,
+          47.6710635224727
+        ]
+      },
+      "properties": {
+        "NAME": "GREEN LAKE PARK",
+        "PMA": 307,
+        "elevation_m": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.310562657041,
+          47.5771231067899
+        ]
+      },
+      "properties": {
+        "NAME": "STEVENS PLACE",
+        "PMA": 3919,
+        "elevation_m": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349210692829,
+          47.7321412272443
+        ]
+      },
+      "properties": {
+        "NAME": "BITTER LAKE OPEN SPACE PARK",
+        "PMA": 4450,
+        "elevation_m": 149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318982484145,
+          47.6031316947793
+        ]
+      },
+      "properties": {
+        "NAME": "HORIUCHI PARK",
+        "PMA": 43,
+        "elevation_m": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.361449298121,
+          47.6397975834518
+        ]
+      },
+      "properties": {
+        "NAME": "QUEEN ANNE BOULEVARD",
+        "PMA": 328,
+        "elevation_m": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.434752097389,
+          47.6618219723774
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK",
+        "PMA": 16548,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.368643809517,
+          47.5277850713566
+        ]
+      },
+      "properties": {
+        "NAME": "S.W. COMMUNITY CENTER AND POOL",
+        "PMA": 3996,
+        "elevation_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322880773542,
+          47.5355030987198
+        ]
+      },
+      "properties": {
+        "NAME": "GEORGETOWN PUMP STATION",
+        "PMA": 635,
+        "elevation_m": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347410975293,
+          47.618380309765
+        ]
+      },
+      "properties": {
+        "NAME": "TILIKUM PLACE",
+        "PMA": 3909,
+        "elevation_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.246840981926,
+          47.5103193931462
+        ]
+      },
+      "properties": {
+        "NAME": "LAKERIDGE PLAYGROUND",
+        "PMA": 3972,
+        "elevation_m": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283838074508,
+          47.6320183517773
+        ]
+      },
+      "properties": {
+        "NAME": "LAMBERT PLACE",
+        "PMA": 3906,
+        "elevation_m": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.406385430157,
+          47.6394130229022
+        ]
+      },
+      "properties": {
+        "NAME": "CARLETON CENTER",
+        "PMA": 305,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400141483383,
+          47.6653795799312
+        ]
+      },
+      "properties": {
+        "NAME": "COMMODORE PARK",
+        "PMA": 308,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.261923849863,
+          47.5250684713125
+        ]
+      },
+      "properties": {
+        "NAME": "RAINIER BEACH URBAN FARM AND WETLANDS",
+        "PMA": 3946,
+        "elevation_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318849166475,
+          47.5600448147275
+        ]
+      },
+      "properties": {
+        "NAME": "MAPLE WOOD PLAYFIELD",
+        "PMA": 418,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364132959249,
+          47.5292133442628
+        ]
+      },
+      "properties": {
+        "NAME": "LONGFELLOW CREEK GREENSPACE",
+        "PMA": 267,
+        "elevation_m": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400520275206,
+          47.5745605492741
+        ]
+      },
+      "properties": {
+        "NAME": "SCHMITZ PRESERVE PARK",
+        "PMA": 465,
+        "elevation_m": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303824950347,
+          47.594462253844
+        ]
+      },
+      "properties": {
+        "NAME": "JUDKINS PARK AND PLAYFIELD",
+        "PMA": 397,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.306659331642,
+          47.6216545127409
+        ]
+      },
+      "properties": {
+        "NAME": "PENDLETON MILLER PLAYFIELD",
+        "PMA": 373,
+        "elevation_m": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.383873636864,
+          47.5193315770109
+        ]
+      },
+      "properties": {
+        "NAME": "FAUNTLEROY PARK",
+        "PMA": 453,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315370650991,
+          47.527923374841
+        ]
+      },
+      "properties": {
+        "NAME": "SOUTH PARK PLAZA",
+        "PMA": 4491,
+        "elevation_m": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313704492749,
+          47.6804699648536
+        ]
+      },
+      "properties": {
+        "NAME": "FROULA PLAYGROUND",
+        "PMA": 287,
+        "elevation_m": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376411661739,
+          47.5807302443213
+        ]
+      },
+      "properties": {
+        "NAME": "BELVEDERE PARK",
+        "PMA": 447,
+        "elevation_m": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.345236244645,
+          47.6086560702063
+        ]
+      },
+      "properties": {
+        "NAME": "PIER 62",
+        "PMA": 274,
+        "elevation_m": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.373587014162,
+          47.6609988995477
+        ]
+      },
+      "properties": {
+        "NAME": "14TH AVENUE NW BOAT RAMP",
+        "PMA": 4010,
+        "elevation_m": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.381177320303,
+          47.7030415109391
+        ]
+      },
+      "properties": {
+        "NAME": "BLUE RIDGE PLACES",
+        "PMA": 239,
+        "elevation_m": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.387703304448,
+          47.5461431638535
+        ]
+      },
+      "properties": {
+        "NAME": "MORGAN JUNCTION PARK",
+        "PMA": 4460,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281938173556,
+          47.6267025381724
+        ]
+      },
+      "properties": {
+        "NAME": "MCGILVRA BOULEVARD",
+        "PMA": 4013,
+        "elevation_m": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347699791694,
+          47.6779909599588
+        ]
+      },
+      "properties": {
+        "NAME": "LINDEN ORCHARD PARK",
+        "PMA": 4419,
+        "elevation_m": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364022194743,
+          47.7152103787302
+        ]
+      },
+      "properties": {
+        "NAME": "PIPERS CREEK NATURAL AREA",
+        "PMA": 275,
+        "elevation_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319316226528,
+          47.6213226208927
+        ]
+      },
+      "properties": {
+        "NAME": "THOMAS STREET GARDENS",
+        "PMA": 4104,
+        "elevation_m": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130724082,
+          47.6725960849859
+        ]
+      },
+      "properties": {
+        "NAME": "COWEN PARK",
+        "PMA": 483,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32340218071,
+          47.6348983112533
+        ]
+      },
+      "properties": {
+        "NAME": "I-5 COLONNADE",
+        "PMA": 4446,
+        "elevation_m": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281073091509,
+          47.6803608209419
+        ]
+      },
+      "properties": {
+        "NAME": "VIEW RIDGE PLAYFIELD",
+        "PMA": 444,
+        "elevation_m": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30161442868,
+          47.6228944892372
+        ]
+      },
+      "properties": {
+        "NAME": "PRENTIS I. FRAZIER PARK",
+        "PMA": 357,
+        "elevation_m": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.293604280021,
+          47.7071562987466
+        ]
+      },
+      "properties": {
+        "NAME": "MEADOWBROOK TEEN LIFE CENTER",
+        "PMA": 352,
+        "elevation_m": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295866542704,
+          47.5995572178404
+        ]
+      },
+      "properties": {
+        "NAME": "FLO WARE PARK",
+        "PMA": 363,
+        "elevation_m": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322428451919,
+          47.6539627201044
+        ]
+      },
+      "properties": {
+        "NAME": "NORTH PASSAGE POINT PARK",
+        "PMA": 2956,
+        "elevation_m": -25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366002906469,
+          47.554369520341
+        ]
+      },
+      "properties": {
+        "NAME": "GREG DAVIS PARK",
+        "PMA": 4157,
+        "elevation_m": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.278019001707,
+          47.6598894726377
+        ]
+      },
+      "properties": {
+        "NAME": "LAURELHURST PLAYFIELD",
+        "PMA": 340,
+        "elevation_m": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294065915149,
+          47.5394474878713
+        ]
+      },
+      "properties": {
+        "NAME": "VAN ASSELT PLAYGROUND",
+        "PMA": 431,
+        "elevation_m": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.362076968108,
+          47.5515562100586
+        ]
+      },
+      "properties": {
+        "NAME": "DELRIDGE WETLAND",
+        "PMA": 623,
+        "elevation_m": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290814012428,
+          47.5272978984456
+        ]
+      },
+      "properties": {
+        "NAME": "EAST DUWAMISH GREENBELT",
+        "PMA": 442,
+        "elevation_m": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349107738046,
+          47.5497610144007
+        ]
+      },
+      "properties": {
+        "NAME": "WEST DUWAMISH GREENBELT",
+        "PMA": 4401,
+        "elevation_m": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.281684129968,
+          47.6668658195984
+        ]
+      },
+      "properties": {
+        "NAME": "PATHWAYS PARK",
+        "PMA": 496,
+        "elevation_m": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315543671044,
+          47.5520123134744
+        ]
+      },
+      "properties": {
+        "NAME": "CLEVELAND PLAYFIELD",
+        "PMA": 404,
+        "elevation_m": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.381596788022,
+          47.5408143264605
+        ]
+      },
+      "properties": {
+        "NAME": "WATTON LIFE ESTATE",
+        "PMA": 4409,
+        "elevation_m": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407915857131,
+          47.5813602503901
+        ]
+      },
+      "properties": {
+        "NAME": "ALKI BEACH PARK",
+        "PMA": 445,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.300054185358,
+          47.5634588507792
+        ]
+      },
+      "properties": {
+        "NAME": "CHEASTY GREENSPACE",
+        "PMA": 258,
+        "elevation_m": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29553758518,
+          47.5704612365331
+        ]
+      },
+      "properties": {
+        "NAME": "YORK PARK",
+        "PMA": 580,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.337121153672,
+          47.627021509755
+        ]
+      },
+      "properties": {
+        "NAME": "LAKE UNION PARK",
+        "PMA": 344,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325707420401,
+          47.6270795322354
+        ]
+      },
+      "properties": {
+        "NAME": "SUMMIT PLACE",
+        "PMA": 383,
+        "elevation_m": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400714189186,
+          47.6896188702583
+        ]
+      },
+      "properties": {
+        "NAME": "GOLDEN GARDENS PARK",
+        "PMA": 243,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.416055753956,
+          47.575196064409
+        ]
+      },
+      "properties": {
+        "NAME": "BAR-S PLAYGROUND",
+        "PMA": 3703,
+        "elevation_m": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.397367506605,
+          47.6329207975633
+        ]
+      },
+      "properties": {
+        "NAME": "MAGNOLIA PARK",
+        "PMA": 317,
+        "elevation_m": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32115655367,
+          47.6748650531192
+        ]
+      },
+      "properties": {
+        "NAME": "RAVENNA BOULEVARD",
+        "PMA": 388,
+        "elevation_m": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.333863917617,
+          47.6703148652615
+        ]
+      },
+      "properties": {
+        "NAME": "KEYSTONE PLACE",
+        "PMA": 3880,
+        "elevation_m": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.406167993853,
+          47.6722556419246
+        ]
+      },
+      "properties": {
+        "NAME": "NW 60TH STREET VIEWPOINT",
+        "PMA": 4161,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.338430770449,
+          47.6881379102046
+        ]
+      },
+      "properties": {
+        "NAME": "NORTH PARK SHOPS",
+        "PMA": 481,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323443450923,
+          47.6237907387125
+        ]
+      },
+      "properties": {
+        "NAME": "TASHKENT PARK",
+        "PMA": 384,
+        "elevation_m": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303744100792,
+          47.7198306954752
+        ]
+      },
+      "properties": {
+        "NAME": "THORNTON CREEK ADDITION: NORTH BRANCH",
+        "PMA": 4649,
+        "elevation_m": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289886787832,
+          47.6110215170932
+        ]
+      },
+      "properties": {
+        "NAME": "MADRONA PLAYGROUND",
+        "PMA": 371,
+        "elevation_m": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.374515985507,
+          47.6900286658756
+        ]
+      },
+      "properties": {
+        "NAME": "BAKER PARK ON CROWN HILL",
+        "PMA": 2840,
+        "elevation_m": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.366493302089,
+          47.5528412867594
+        ]
+      },
+      "properties": {
+        "NAME": "WEST SEATTLE GOLF COURSE",
+        "PMA": 265,
+        "elevation_m": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.380050508957,
+          47.5849360205218
+        ]
+      },
+      "properties": {
+        "NAME": "DUWAMISH HEAD GREENBELT",
+        "PMA": 451,
+        "elevation_m": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266372275855,
+          47.5631967956235
+        ]
+      },
+      "properties": {
+        "NAME": "LAKEWOOD MOORAGE",
+        "PMA": 4040,
+        "elevation_m": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.332354285795,
+          47.6215802105943
+        ]
+      },
+      "properties": {
+        "NAME": "CASCADE PLAYGROUND",
+        "PMA": 350,
+        "elevation_m": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317644670326,
+          47.5904206062871
+        ]
+      },
+      "properties": {
+        "NAME": "KATIE BLACKS GARDEN",
+        "PMA": 3122,
+        "elevation_m": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301082443906,
+          47.58997844583
+        ]
+      },
+      "properties": {
+        "NAME": "SAM SMITH PARK",
+        "PMA": 4242,
+        "elevation_m": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262835672305,
+          47.5229230110693
+        ]
+      },
+      "properties": {
+        "NAME": "ATLANTIC CITY BOAT RAMP",
+        "PMA": 4081,
+        "elevation_m": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315567512778,
+          47.63037809333
+        ]
+      },
+      "properties": {
+        "NAME": "VOLUNTEER PARK",
+        "PMA": 399,
+        "elevation_m": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.412090554858,
+          47.5709826409856
+        ]
+      },
+      "properties": {
+        "NAME": "CORMORANT COVE",
+        "PMA": 295,
+        "elevation_m": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304388484505,
+          47.5896742303502
+        ]
+      },
+      "properties": {
+        "NAME": "BENVENUTO VIEWPOINT",
+        "PMA": 4245,
+        "elevation_m": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291397241032,
+          47.6433991721173
+        ]
+      },
+      "properties": {
+        "NAME": "FOSTER ISLAND (WASH. PARK)",
+        "PMA": 393,
+        "elevation_m": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320834523136,
+          47.6345178986247
+        ]
+      },
+      "properties": {
+        "NAME": "STREISSGUTH GARDENS",
+        "PMA": 4628,
+        "elevation_m": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.397762222135,
+          47.5401631347326
+        ]
+      },
+      "properties": {
+        "NAME": "LOWMAN BEACH PARK",
+        "PMA": 461,
+        "elevation_m": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286119170617,
+          47.5766321299297
+        ]
+      },
+      "properties": {
+        "NAME": "TRUDYS TRIANGLE",
+        "PMA": 4041,
+        "elevation_m": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.364994383619,
+          47.7330152249247
+        ]
+      },
+      "properties": {
+        "NAME": "LLANDOVER WOODS GREENSPACE",
+        "PMA": 301,
+        "elevation_m": 134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284209364976,
+          47.5543004131174
+        ]
+      },
+      "properties": {
+        "NAME": "HITTS HILL PARK",
+        "PMA": 4413,
+        "elevation_m": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.417014476655,
+          47.6574229571026
+        ]
+      },
+      "properties": {
+        "NAME": "DISCOVERY PARK",
+        "PMA": 310,
+        "elevation_m": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320367152633,
+          47.6824481871019
+        ]
+      },
+      "properties": {
+        "NAME": "RAINBOW POINT",
+        "PMA": 4045,
+        "elevation_m": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.353787577107,
+          47.6361386757722
+        ]
+      },
+      "properties": {
+        "NAME": "EAST QUEEN ANNE PLAYGROUND",
+        "PMA": 329,
+        "elevation_m": 126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357414675837,
+          47.5204479122163
+        ]
+      },
+      "properties": {
+        "NAME": "WESTWOOD HIGHLAND PARK",
+        "PMA": 4694,
+        "elevation_m": 117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30988113992,
+          47.60126033407
+        ]
+      },
+      "properties": {
+        "NAME": "LANGSTON HUGHES CULTURAL ARTS",
+        "PMA": 256,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.370809391253,
+          47.5040723711008
+        ]
+      },
+      "properties": {
+        "NAME": "SEOLA BEACH GREENBELT",
+        "PMA": 466,
+        "elevation_m": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30084033038,
+          47.5889073104119
+        ]
+      },
+      "properties": {
+        "NAME": "JIMI HENDRIX PARK",
+        "PMA": 3121,
+        "elevation_m": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31462630739,
+          47.7164367542567
+        ]
+      },
+      "properties": {
+        "NAME": "PINEHURST PLAYGROUND",
+        "PMA": 382,
+        "elevation_m": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324655067195,
+          47.7100476393391
+        ]
+      },
+      "properties": {
+        "NAME": "HUBBARD HOMESTEAD PARK",
+        "PMA": 4456,
+        "elevation_m": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393815140207,
+          47.5700137439585
+        ]
+      },
+      "properties": {
+        "NAME": "CHARLESTOWN PARK",
+        "PMA": 4590,
+        "elevation_m": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325514172568,
+          47.6119073898224
+        ]
+      },
+      "properties": {
+        "NAME": "FIRST HILL PARK",
+        "PMA": 3910,
+        "elevation_m": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304648467938,
+          47.6030910019274
+        ]
+      },
+      "properties": {
+        "NAME": "SPRUCE STREET MINI PARK",
+        "PMA": 3117,
+        "elevation_m": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324590844914,
+          47.6478377841912
+        ]
+      },
+      "properties": {
+        "NAME": "FAIRVIEW PARK",
+        "PMA": 2975,
+        "elevation_m": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39981846041,
+          47.5596366833003
+        ]
+      },
+      "properties": {
+        "NAME": "ME-KWA-MOOKS NATURAL AREA",
+        "PMA": 268,
+        "elevation_m": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313939568166,
+          47.5922576475656
+        ]
+      },
+      "properties": {
+        "NAME": "LEWIS PARK",
+        "PMA": 4076,
+        "elevation_m": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336476237936,
+          47.7057770846874
+        ]
+      },
+      "properties": {
+        "NAME": "MINERAL SPRINGS PARK",
+        "PMA": 291,
+        "elevation_m": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.378973875952,
+          47.6469606691843
+        ]
+      },
+      "properties": {
+        "NAME": "INTERBAY ATHLETIC FIELD",
+        "PMA": 3887,
+        "elevation_m": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316185716398,
+          47.7069111876761
+        ]
+      },
+      "properties": {
+        "NAME": "VICTORY CREEK CONFLUENCE NATURAL AREA ON TC",
+        "PMA": 4616,
+        "elevation_m": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298922866224,
+          47.6662727598611
+        ]
+      },
+      "properties": {
+        "NAME": "BLAKELEY CRESCENT PARK",
+        "PMA": 4435,
+        "elevation_m": 18
+      }
+    }
+  ]
+}

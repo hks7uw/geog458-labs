@@ -1,0 +1,53 @@
+{
+  "name": "lab3-air-quality-haris",
+  "owner": "hks7",
+  "style_id": "cmvr7hh79001001su9c1d75qa",
+  "style_url": "mapbox://styles/hks7/cmvr7hh79001001su9c1d75qa",
+  "editor": "https://console.mapbox.com/studio/styles/hks7/cmvr7hh79001001su9c1d75qa/edit/",
+  "verified": "2026-10-27",
+  "verification": "Classic style with 50 layers; five commercial POI classes excluded with AND; road widths, opacity, and label properties unchanged",
+  "poi_exclusions": [
+    "commercial_services",
+    "store_like",
+    "food_and_drink",
+    "food_and_drink_stores",
+    "lodging"
+  ],
+  "poi_filter_combination": "AND with the original filter",
+  "road_layers_changed": [
+    "road-simple",
+    "bridge-simple",
+    "bridge-case-simple",
+    "tunnel-simple"
+  ],
+  "motorway_color": "#404040",
+  "other_road_color": "#d9d9d9",
+  "export": {
+    "tool": "QGIS XYZ raster connection and QMetaTiles 1.5 TileSet renderer and directory writer",
+    "bounds": [
+      -122.75,
+      47.1,
+      -122.05,
+      48.15
+    ],
+    "crs": "EPSG:3857",
+    "zooms": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tile_size": 256,
+    "format": "PNG",
+    "scheme": "xyz",
+    "background_transparency": 0,
+    "tile_count": 246,
+    "output": "../assets/mapbox-guided",
+    "rendered_layers": [
+      "published Studio basemap only"
+    ],
+    "method_note": "Each source tile was loaded through the QGIS raster provider before the QMetaTiles render so asynchronous downloads could finish; the export does not include PM2.5 or station layers",
+    "attribution": "© Mapbox © OpenStreetMap"
+  }
+}
