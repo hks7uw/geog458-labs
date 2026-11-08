@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seattle and Tacoma vessel traffic</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+  <script src="https://unpkg.com/deck.gl@9.1.14/dist.min.js"></script>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    #panel {
+      position: absolute; top: 15px; left: 15px;
+      width: 280px; max-width: calc(100vw - 100px);
+      max-height: calc(100vh - 100px); overflow: auto;
+      padding: 16px; background: white; border-radius: 4px;
+    }
+    h1 { margin: 0 0 12px; font-size: 21px; }
+    p { font-size: 14px; line-height: 1.5; }
+    label { display: block; margin: 12px 0 6px; font-size: 14px; }
+    select, button { padding: 8px; font: inherit; }
+    select { width: 100%; }
+    button { margin-top: 12px; cursor: pointer; }
+    #time-slider { width: 100%; margin: 8px 0; accent-color: #fd805d; }
+    .line { display: inline-block; width: 24px; border-top: 3px solid #fd805d; }
+  </style>
+</head>
+<body>
+  <div id="map" aria-label="Map of vessel paths around Seattle and Tacoma"></div>
+  <div id="panel">
+    <h1>Seattle and Tacoma vessel traffic</h1>
+    <p>January 1–5, 2023 (UTC)</p>
+    <label for="vessel-type">Vessel type</label>
+    <select id="vessel-type" disabled>
+      <option value="passenger" selected>Passenger</option>
+      <option value="tanker">Tanker</option>
+      <option value="cargo">Cargo</option>
+      <option value="other">Other vessels</option>
+    </select>
+    <button id="play-stop" type="button" aria-pressed="true" disabled>Stop</button>
+    <p>Data time: <time id="time-display">Waiting for data</time></p>
+    <label for="time-slider">Data time (Seattle: PDT/PST)</label>
+    <input id="time-slider" type="range" min="0" max="1" value="0" step="1" disabled>
+    <p id="status" role="status">Loading vessel data...</p>
+    <p><span class="line"></span> Previous hour of each vessel path.<br>
+      Playback: 15 minutes of data per second.</p>
+    <p>Lines connect reported positions, including gaps.<br>
+      The slider ends one hour after the last report.</p>
+    <p>Source: <a href="https://marinecadastre.gov/accessais/">AccessAIS</a></p>
+  </div>
+  <script>
+    const status = document.getElementById('status');
+
+    async function main() {
+      // load both files from the same conversion
+      const tripsResponse = await fetch('./ais_trips.json');
+      if (!tripsResponse.ok) throw new Error('Add ais_trips.json to the lab5 folder.');
+      const data = await tripsResponse.json();
+      const metadataResponse = await fetch('./ais_trips_metadata.json');
+      if (!metadataResponse.ok) throw new Error('Add ais_trips_metadata.json to the lab5 folder.');
+      const metadata = await metadataResponse.json();
+      const timeOrigin = Date.parse(metadata.time_origin_utc);
+      if (!Number.isFinite(timeOrigin)) throw new Error('The metadata needs a valid UTC time origin.');
+
+      // a line needs at least two positions
+      const trips = data.filter(function (trip) {
+        return trip.path.length >= 2;
+      });
+      if (trips.length === 0) throw new Error('No vessel paths have at least two positions.');
+
+      mapboxgl.accessToken = 'pk.eyJ1IjoiaGtzNyIsImEiOiJjbXY1c3E5MGUwOXB6Mnpwd2U5ZTRzb2IyIn0.Q1bfkkPvxjEUYW1EtKObRg';
+      const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/dark-v11',
+        center: [-122.40, 47.46],
+        zoom: 9.5,
+        projection: 'mercator'
+      });
+      map.addControl(new mapboxgl.NavigationControl());
+      await new Promise(function (resolve) {
+        map.once('load', resolve);
+      });
+      const overlay = new deck.MapboxOverlay({ interleaved: false, layers: [] });
+      map.addControl(overlay);
+
+      // every vessel uses the same clock
+      const startTime = Math.min(...trips.map(trip => trip.timestamps[0]));
+      const lastTime = Math.max(...trips.map(trip => trip.timestamps[trip.timestamps.length - 1]));
+      const endTime = lastTime + 3600;
+      let currentTime = Math.min(startTime + 3600, lastTime);
+      let displayedTrips = [];
+      let playing = true;
+      let previousFrame = null;
+
+      const vesselType = document.getElementById('vessel-type');
+      const playStop = document.getElementById('play-stop');
+      const timeDisplay = document.getElementById('time-display');
+      const timeSlider = document.getElementById('time-slider');
+      vesselType.disabled = false;
+      playStop.disabled = false;
+      timeSlider.disabled = false;
+      timeSlider.min = String(startTime);
+      timeSlider.max = String(endTime);
+      const timeFormatter = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Los_Angeles',
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hourCycle: 'h23', timeZoneName: 'short'
+      });
+
+      function draw() {
+        overlay.setProps({
+          layers: [new deck.TripsLayer({
+            id: 'ais-trips',
+            data: displayedTrips,
+            getPath: trip => trip.path,
+            getTimestamps: trip => trip.timestamps,
+            getColor: [253, 128, 93],
+            widthMinPixels: 3,
+            capRounded: true,
+            jointRounded: true,
+            trailLength: 3600,
+            currentTime: currentTime
+          })]
+        });
+        const date = new Date(timeOrigin + Math.floor(currentTime) * 1000);
+        timeDisplay.dateTime = date.toISOString();
+        timeDisplay.textContent = timeFormatter.format(date);
+        timeSlider.value = String(Math.floor(currentTime));
+        timeSlider.setAttribute('aria-valuetext', timeDisplay.textContent);
+      }
+
+      // filter only when the selection changes
+      function applyFilter() {
+        displayedTrips = trips.filter(function (trip) {
+          const type = Number(trip.type);
+          if (vesselType.value === 'passenger') return type >= 60 && type < 70;
+          if (vesselType.value === 'tanker') return type >= 80 && type < 90;
+          if (vesselType.value === 'cargo') return type >= 70 && type < 80;
+          return !(type >= 60 && type < 90);
+        });
+        status.textContent = displayedTrips.length + ' paths selected';
+        draw();
+      }
+      vesselType.addEventListener('change', applyFilter);
+      applyFilter();
+
+      function setPlaying(value) {
+        playing = value;
+        previousFrame = null;
+        playStop.textContent = playing ? 'Stop' : 'Play';
+        playStop.setAttribute('aria-pressed', String(playing));
+      }
+      playStop.addEventListener('click', function () {
+        setPlaying(!playing);
+      });
+      timeSlider.addEventListener('input', function () {
+        setPlaying(false);
+        currentTime = Number(timeSlider.value);
+        draw();
+      });
+      document.addEventListener('visibilitychange', function () {
+        previousFrame = null;
+      });
+
+      // move forward by 900 data seconds per real second
+      function animate(frameTime) {
+        if (playing) {
+          if (previousFrame !== null) {
+            const elapsed = (frameTime - previousFrame) / 1000;
+            currentTime += elapsed * 900;
+            if (currentTime > endTime) {
+              currentTime = startTime + (currentTime - startTime) % (endTime - startTime);
+            }
+          }
+          previousFrame = frameTime;
+          draw();
+        }
+        requestAnimationFrame(animate);
+      }
+      requestAnimationFrame(animate);
+    }
+
+    main().catch(function (error) {
+      status.textContent = error.message;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
