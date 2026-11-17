@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 7 | Geographic Story</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="map" aria-label="Map for the geographic story"></div>
+    <nav id="chapter-nav" aria-label="Story chapters"></nav>
+    <p id="map-status" role="status">Loading the map…</p>
+    <main id="story">
+        <header id="header">
+            <div class="intro">
+                <p class="eyebrow" id="byline"></p>
+                <h1 id="title"></h1>
+                <p class="subtitle" id="subtitle"></p>
+                <a class="start-link" href="#features">Scroll to explore ↓</a>
+            </div>
+        </header>
+        <div id="features"></div>
+        <footer id="footer">
+            <p id="credits"></p>
+            <p>Built for GEOG 458 using Mapbox GL JS and the configuration approach of
+                <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling</a>.</p>
+            <a href="#header">Back to the beginning ↑</a>
+        </footer>
+    </main>
+    <noscript>Enable JavaScript in your browser to view this Storymap.</noscript>
+    <!-- load the data before the script that uses it. -->
+    <script src="./config.js"></script>
+    <script>
+        const features = document.getElementById('features');
+        const navigation = document.getElementById('chapter-nav');
+        const status = document.getElementById('map-status');
+        let map;
+        let marker;
+
+        document.body.dataset.theme = config.theme || 'light';
+        document.getElementById('title').textContent = config.title;
+        document.getElementById('subtitle').textContent = config.subtitle;
+        document.getElementById('byline').textContent = config.byline;
+        document.getElementById('credits').textContent = config.footer;
+        document.title = config.title + ' | Storymap';
+        document.querySelector('.start-link').href = '#' + config.chapters[0].id;
+
+        // step 1: build static story sections from the configuration.
+        config.chapters.forEach((chapter, index) => {
+            const section = document.createElement('section');
+            section.id = chapter.id;
+            section.className = 'step';
+            section.dataset.index = index;
+            section.dataset.alignment = chapter.alignment || 'left';
+            section.setAttribute('aria-labelledby', chapter.id + '-title');
+
+            const card = document.createElement('div');
+            card.className = 'chapter-card';
+            const number = document.createElement('p');
+            number.className = 'chapter-number';
+            number.textContent = 'CHAPTER ' + (index + 1) + ' / ' + config.chapters.length;
+            const heading = document.createElement('h2');
+            heading.id = chapter.id + '-title';
+            heading.textContent = chapter.title;
+            card.append(number, heading);
+
+            if (chapter.image) {
+                const image = document.createElement('img');
+                image.src = chapter.image;
+                image.alt = chapter.imageAlt || '';
+                image.loading = 'lazy';
+                card.appendChild(image);
+            }
+            const description = document.createElement('p');
+            description.className = 'description';
+            description.textContent = chapter.description;
+            card.appendChild(description);
+            section.appendChild(card);
+            features.appendChild(section);
+
+            const link = document.createElement('a');
+            link.href = '#' + chapter.id;
+            link.textContent = chapter.label || chapter.title;
+            navigation.appendChild(link);
+        });
+        const steps = [...document.querySelectorAll('.step')];
+        const links = [...navigation.querySelectorAll('a')];
+
+        // create the map from the first chapter
+        try {
+            if (!window.mapboxgl) throw new Error('Mapbox script unavailable');
+            mapboxgl.accessToken = config.accessToken;
+            map = new mapboxgl.Map({
+                container: 'map',
+                style: config.style,
+                ...config.chapters[0].location,
+                interactive: false
+            });
+            if (config.showMarkers) {
+                marker = new mapboxgl.Marker({ color: config.markerColor })
+                    .setLngLat(config.chapters[0].location.center)
+                    .addTo(map);
+                map.on('move', () => marker.setLngLat(map.getCenter()));
+            }
+            map.on('load', () => {
+                status.hidden = true;
+
+                // OPTIONAL LAYERS START
+                // OPTIONAL LAYERS END
+
+                // STEP 2 START
+                let activeIndex = -1;
+
+                // change the opacity of existing layers
+                function setLayerOpacity(change) {
+                    const layer = map.getLayer(change.layer);
+                    if (!layer) {
+                        console.warn('Add this layer before using chapter hooks:', change.layer);
+                        return;
+                    }
+                    const properties = {
+                        fill: ['fill-opacity'],
+                        line: ['line-opacity'],
+                        circle: ['circle-opacity', 'circle-stroke-opacity'],
+                        symbol: ['icon-opacity', 'text-opacity'],
+                        raster: ['raster-opacity'],
+                        'fill-extrusion': ['fill-extrusion-opacity'],
+                        heatmap: ['heatmap-opacity']
+                    };
+                    (properties[layer.type] || []).forEach(property => {
+                        map.setPaintProperty(change.layer, property + '-transition', {
+                            duration: change.duration ?? 300
+                        });
+                        map.setPaintProperty(change.layer, property, change.opacity);
+                    });
+                }
+
+                function moveMap(index, immediately = false) {
+                    const chapter = config.chapters[index];
+                    map.stop(); // start from the current camera position
+                    if (immediately || chapter.mapAnimation === 'jumpTo') {
+                        map.jumpTo(chapter.location);
+                        return;
+                    }
+                    const options = {
+                        ...chapter.location,
+                        duration: config.transitionDuration,
+                        essential: true, // movement connects the places
+                        easing: t => t * t * (3 - 2 * t)
+                    };
+                    if (chapter.mapAnimation === 'easeTo') map.easeTo(options);
+                    else map.flyTo(options);
+                }
+
+                function activateChapter(index, immediately = false) {
+                    if (index === activeIndex) return;
+                    if (activeIndex >= 0) {
+                        (config.chapters[activeIndex].onChapterExit || []).forEach(setLayerOpacity);
+                    }
+                    activeIndex = index;
+                    steps.forEach((step, i) => step.classList.toggle('active', i === index));
+                    links.forEach((link, i) => {
+                        if (i === index) link.setAttribute('aria-current', 'step');
+                        else link.removeAttribute('aria-current');
+                    });
+                    (config.chapters[index].onChapterEnter || []).forEach(setLayerOpacity);
+                    moveMap(index, immediately);
+                }
+
+                document.body.classList.add('is-interactive');
+                activateChapter(0, true); // select the first chapter before watching scrolling
+                // STEP 2 END
+
+                // STEP 3 START
+                let observer;
+
+                function observeChapters() {
+                    if (observer) observer.disconnect();
+                    const visible = new Set();
+                    const margin = Math.floor(window.innerHeight * 0.45);
+
+                    observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) visible.add(entry.target);
+                            else visible.delete(entry.target);
+                        });
+
+                        // choose the section closest to the middle
+                        const distance = section => {
+                            const rect = section.getBoundingClientRect();
+                            return Math.abs((rect.top + rect.bottom) / 2 - window.innerHeight / 2);
+                        };
+                        const nearest = [...visible].sort((a, b) => distance(a) - distance(b))[0];
+                        if (nearest) activateChapter(Number(nearest.dataset.index));
+                    }, {
+                        root: null,
+                        rootMargin: '-' + margin + 'px 0px -' + margin + 'px 0px',
+                        threshold: 0
+                    });
+
+                    steps.forEach(step => observer.observe(step));
+                }
+
+                observeChapters(); // start watching the chapters
+                window.addEventListener('resize', observeChapters);
+                // STEP 3 END
+            });
+            map.on('error', () => {
+                status.textContent = 'Could not load the map. Check your connection, public Mapbox token, and allowed URLs.';
+                status.hidden = false;
+            });
+        } catch (error) {
+            status.textContent = 'Could not start the map. Check Mapbox access and WebGL support. The story text is still available.';
+        }
+    </script>
+</body>
+</html>
